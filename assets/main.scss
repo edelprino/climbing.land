@@ -1,0 +1,94 @@
+---
+---
+
+@import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body, p, ul, li, a, h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Open Sans', sans-serif;
+  color: #111;
+  line-height: 29px;
+}
+
+p img {
+  margin: 20px auto;
+  display: block;
+}
+
+.post-title {
+  line-height: 60px;
+}
+
+.post-meta {
+  text-align: center;
+}
+
+article h1, article h2, article h3, article h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+table th, table td {
+  padding: 5px 15px;
+}
+
+.wrapper {
+  max-width: 950px;
+}
+
+.align-left {
+  float: left;
+  padding-right: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.post-content a {
+  text-decoration: underline;
+  color: #2a7ae2;
+}
+
+header.newsletter {
+  margin: 0 auto;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+div.newsletter-link {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+div.newsletter-link > p{
+  text-align: justify;
+}
+
+iframe.no-border {
+  border: none;
+}
+
+/* Using 800px as mobile screen in this example */
+@media(max-width: 500px) {
+  /* Hide the table headings */
+  table thead {
+    display: none;
+  }
+  table tr {
+      border-bottom: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      text-align: center;
+  }
+  table td {
+      border: 0;
+      margin: 0 -1px -1px 0; /* Removes double-borders */
+  }
+
+  table td:first-child {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,23 @@
+title: ClimbingLand
+author: ""
+email: info@climbing.land
+# description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://climbing.land" # the base hostname & protocol for your site, e.g. http://example.com
+
+google_analytics: UA-38378836-1
+
+permalink: /:categories/:title
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+collections:
+  gyms:
+    output: true

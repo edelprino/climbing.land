@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{{content}}
+
+{% assign gyms_by_regions = site.gyms | group_by: 'region' | sort: 'name' %}
+
+{% for gyms_by_region in gyms_by_regions %}
+  <h2>{{ gyms_by_region.name }}</h2>
+  <ul>
+  {% for gym in gyms_by_region.items %}
+    <li><a href="{{gym.url}}">{{ gym.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endfor %}
