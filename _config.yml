@@ -1,11 +1,11 @@
 title: ClimbingLand
 author: ""
 email: info@climbing.land
-# description: >- # this means to ignore newlines until "baseurl:"
+description: "Tutte le migliori informazioni per scalare"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://climbing.land" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://climbing.land" # the base hostname & protocol for your site, e.g. http://example.com
 
-google_analytics: UA-38378836-1
+google_analytics: 300212577
 
 permalink: /:categories/:title
 markdown: kramdown

@@ -17,12 +17,27 @@ layout: default
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11', // style URL
     center: [{{gym.longitude}},  {{gym.latitude}}],
-    zoom: 8
+    zoom: 9
   });
 
     new mapboxgl.Marker()
-    .setPopup(new mapboxgl.Popup().setHTML("<h1><a href=\"{{gym.url}}\">{{gym.title | smartify}}</a></h1>"))
       .setLngLat([{{gym.longitude}},  {{gym.latitude}}])
       .addTo(map);
 </script>
 {% endif %}
+
+
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = "{{page.url}}";
+        this.page.identifier = "{{page.slug}}";
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://climbingland.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
