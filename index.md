@@ -1,6 +1,4 @@
 ---
-layout: default
+layout: map
 title: Home
 ---
-
-mappa con tutte le palestre
