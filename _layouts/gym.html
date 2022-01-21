@@ -32,6 +32,39 @@ layout: default
     {% endfor %}
   </div>
 
+  <h2>Prezzi</h2>
+  <div class="prices">
+    {% if gym.annual_fee %}
+    <div class="price">
+      Quota iscrizione annuale: {{gym.annual_fee}}
+    </div>
+    {% endif %}
+    {% if gym.ingress_price %}
+    <div class="price">
+      Ingresso singolo: {{gym.ingress_price}}
+    </div>
+    {% endif %}
+    {% if gym.monthl_subscription_price %}
+    <div class="price">
+      Abbonmanento mensile: {{gym.monthly_subscription_price}}
+    </div>
+    {% endif %}
+  </div>
+
+  <h2>Istruttori</h2>
+  <div class="trainers">
+      <div class="trainer">
+        <div class="image">
+          <i class="fas fa-user"></i>
+        </div>
+        <div class="content">
+          <div class="title"><a href="https://airtable.com/shrRfAfsHz2K1VeAB" target="_blank">Sei un insegnante di questa palestra?</a></div>
+          Compila il modulo
+        </div>
+      </div>
+  </div>
+
+
   <h2>Dove si trova</h2>
   <p>{{gym.address}}, {{gym.city}} - <a target="_blank" href="https://maps.google.com/?ll={{gym.latitude}},{{gym.longitude}}">Ottieni indicazioni <i class="fas fa-car-side"></i></a></p>
 
