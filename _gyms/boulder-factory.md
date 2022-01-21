@@ -2,11 +2,16 @@
 title: Boulder Factory
 layout: gym
 region: Liguria
-city: Genova (GE)
+city: Genova
 email: boulderfactory@gmail.com
+website: 
 address: Via Pastorino 38/26
-phone: 
+phone: 3491662773
 latitude: 44.46164322
 longitude: 8.90121078
+annual_fee: 
+ingress_price: 
+structures: boulder,pangullich,travi
+monthly_subscription_price: None
 ---
 

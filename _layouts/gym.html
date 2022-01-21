@@ -10,14 +10,20 @@ layout: default
   </div>
 
   <div class="contacts">
+      {% if gym.phone %}
       <a href="tel:{{gym.phone}}"><i class="fas fa-phone"></i> {{gym.phone}}</a>
+      {% endif %}
+      {% if gym.website %}
       <a href="{{gym.website}}"><i class="fas fa-globe"></i> {{gym.website}}</a>
+      {% endif %}
+      {% if gym.email %}
       <a href="emailto:{{gym.email}}"><i class="fas fa-envelope"></i> {{gym.email}}</a>
+      {% endif %}
   </div>
 
   <h2>Cosa troverai</h2>
   <div class="structures">
-    {% assign structure_ids = gym.structures | split: ", " %}
+    {% assign structure_ids = gym.structures | split: "," %}
     {% for structure_id in structure_ids %}
     {% assign structure = site.data.structures[structure_id] %}
       <div class="structure">
