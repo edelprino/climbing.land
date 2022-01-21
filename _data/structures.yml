@@ -1,0 +1,35 @@
+pangullich:
+  title: Pan Gullich
+  description: Attrezzo utilizzato per lo sviluppo della forza esplosiva di braccia, spalle e dita
+  icon: fa-bars
+
+arrampicata:
+  title: Muro lead
+  description: Muro di arrampicata con corda
+  icon: fa-mountain
+
+boulder:
+  title: Muro boulder
+  description: Sul muro boulder si trovano blocchi differenti e stimolanti
+  icon: fa-user-cog
+
+salapesi:
+  title: Sala pesi
+  description: Dedicata all'allenamento della forza
+  icon: fa-dumbbell
+
+moonboard:
+  title: MoonBoard
+  description: Celebre pannello inventato da BenMoon
+  icon: fa-moon
+
+systemwall:
+  title: SystemWall
+  description: Pannello che permette un allenamento simmentrico del corpo
+  icon: fa-grip-vertical
+
+travi:
+  title: Travi
+  description: Zona dedicata all'allenamento della forza di dita
+  icon: fa-hand-rock
+

@@ -1,43 +1,74 @@
 ---
 layout: default
 ---
-<header class="newsletter">
-  <h1>{{page.title}}</h1>
-</header>
-
 {% assign gym = page %}
-{% if gym.latitude and gym.longitude %}
-<div id='map' style='width: 350px; height: 350px;'></div>
 
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
-<script>
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZWRlbHByaW5vIiwiYSI6ImNreW4yZTRoYjA3amcydnMxZHZ1aWNmNm4ifQ.lExg7LU0ykOG3r5S9eIkjQ';
-  const map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/mapbox/streets-v11', // style URL
-    center: [{{gym.longitude}},  {{gym.latitude}}],
-    zoom: 9
-  });
+<div class="gym">
 
-    new mapboxgl.Marker()
-      .setLngLat([{{gym.longitude}},  {{gym.latitude}}])
-      .addTo(map);
-</script>
-{% endif %}
+  <div class="header">
+    <div class="text"><h1>{{ gym.title }}</h1></div>
+  </div>
 
+  <div class="contacts">
+      <a href="tel:{{gym.phone}}"><i class="fas fa-phone"></i> {{gym.phone}}</a>
+      <a href="{{gym.website}}"><i class="fas fa-globe"></i> {{gym.website}}</a>
+      <a href="emailto:{{gym.email}}"><i class="fas fa-envelope"></i> {{gym.email}}</a>
+  </div>
 
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = "{{page.url}}";
-        this.page.identifier = "{{page.slug}}";
-    };
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://climbingland.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <h2>Cosa troverai</h2>
+  <div class="structures">
+    {% assign structure_ids = gym.structures | split: ", " %}
+    {% for structure_id in structure_ids %}
+    {% assign structure = site.data.structures[structure_id] %}
+      <div class="structure">
+        <div class="image">
+          <i class="fas {{structure.icon}}"></i>
+        </div>
+        <div class="content">
+          <div class="title">{{structure.title}}</div>
+          {{ structure.description }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h2>Dove si trova</h2>
+  <p>{{gym.address}}, {{gym.city}} - <a target="_blank" href="https://maps.google.com/?ll={{gym.latitude}},{{gym.longitude}}">Ottieni indicazioni <i class="fas fa-car-side"></i></a></p>
+
+  {% if gym.latitude and gym.longitude %}
+  <div id='map' style='width: 100%; height: 250px;'></div>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZWRlbHByaW5vIiwiYSI6ImNreW4yZTRoYjA3amcydnMxZHZ1aWNmNm4ifQ.lExg7LU0ykOG3r5S9eIkjQ';
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11', // style URL
+      center: [{{gym.longitude}},  {{gym.latitude}}],
+      zoom: 12
+    });
+
+      new mapboxgl.Marker()
+        .setLngLat([{{gym.longitude}},  {{gym.latitude}}])
+        .addTo(map);
+  </script>
+  {% endif %}
+
+  <h2>Commenti e recensioni</h2>
+
+  <div id="disqus_thread"></div>
+  <script>
+      var disqus_config = function () {
+          this.page.url = "{{page.url}}";
+          this.page.identifier = "{{page.slug}}";
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://climbingland.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+</div>
