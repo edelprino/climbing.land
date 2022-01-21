@@ -38,7 +38,24 @@ layout: default
     {% endfor %}
   </div>
 
-  <h2>Prezzi</h2>
+  <h2>Cosa puoi noleggiare</h2>
+  <div class="rents">
+    {% assign rent_ids = gym.rent | split: "," %}
+    {% for rent_id in rent_ids %}
+    {% assign rent = site.data.rents[rent_id] %}
+      <div class="rent">
+        <div class="image">
+          <i class="fas {{rent.icon}}"></i>
+        </div>
+        <div class="content">
+          <div class="title">{{rent.title}}</div>
+          {{ rent.description }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <h2>Quanto pagherai</h2>
   <div class="prices">
     {% if gym.annual_fee %}
     <div class="price">
@@ -57,18 +74,19 @@ layout: default
     {% endif %}
   </div>
 
-  <h2>Istruttori</h2>
+  <h2>Staff</h2>
   <div class="trainers">
       <div class="trainer">
         <div class="image">
           <i class="fas fa-user"></i>
         </div>
         <div class="content">
-          <div class="title"><a href="https://airtable.com/shrRfAfsHz2K1VeAB" target="_blank">Sei un insegnante di questa palestra?</a></div>
+          <div class="title"><a href="https://airtable.com/shrRfAfsHz2K1VeAB" target="_blank">Sei un istruttore di questa palestra?</a></div>
           Compila il modulo
         </div>
       </div>
   </div>
+
 
 
   <h2>Dove si trova</h2>

@@ -1,0 +1,9 @@
+scarpette:
+  title: Scarpette
+  description: Questa palestra offre la possibilità di noleggiare scarpette
+  icon: fa-shoe-prints
+
+imbrago:
+  title: Imbrago, Corda & GriGri
+  description: Potrai noleggiare imbrago, corda e gri-gri
+  icon: fa-mountain

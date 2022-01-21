@@ -72,6 +72,9 @@ iframe.no-border {
 /* 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987 */
 
 .gym {
+  .prices {
+    padding-left: 35px;
+  }
   .contacts {
     padding-top: 34px;
     text-align: center;
@@ -101,13 +104,12 @@ iframe.no-border {
     }
   }
 
-  .structures, .trainers {
-    .structure, .trainer {
+  .structures, .trainers, .rents {
+    .structure, .trainer, .rent {
       .image {
         float: left;
         width: 80px;
         font-size: 34px;
-        padding-top: 8px;
         text-align: center;
         color: #333;
       }
