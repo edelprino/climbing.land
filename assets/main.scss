@@ -92,6 +92,7 @@ iframe.no-border {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: -1;
 
     .text {
       text-align: center;
