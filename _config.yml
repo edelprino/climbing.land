@@ -5,8 +5,6 @@ description: "Tutte le migliori informazioni per scalare"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://climbing.land" # the base hostname & protocol for your site, e.g. http://example.com
 
-google_analytics: G-3Z1G7L4WD4
-
 header_pages:
   - guides.md
   - instructors.md
