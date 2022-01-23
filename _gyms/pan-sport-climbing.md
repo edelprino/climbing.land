@@ -12,6 +12,7 @@ longitude: 7.80603123
 annual_fee: €10.00
 ingress_price: €7.00
 structures: boulder,pangullich,lead,systemwall,moonboard,travi,salapesi
-monthly_subscription_price: None
+monthly_subscription_price: €40.00
+rent: scarpette,imbrago
 ---
 

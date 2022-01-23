@@ -12,6 +12,7 @@ longitude: 8.96696472
 annual_fee: 
 ingress_price: 
 structures: boulder,pangullich,moonboard,travi
-monthly_subscription_price: None
+monthly_subscription_price: 
+rent: scarpette
 ---
 

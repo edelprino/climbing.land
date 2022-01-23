@@ -12,6 +12,7 @@ longitude: 9.0068264
 annual_fee: 
 ingress_price: 
 structures: 
-monthly_subscription_price: None
+monthly_subscription_price: 
+rent: 
 ---
 

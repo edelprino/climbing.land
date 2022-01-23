@@ -12,6 +12,7 @@ longitude: 8.35264015
 annual_fee: 
 ingress_price: 
 structures: boulder,travi
-monthly_subscription_price: None
+monthly_subscription_price: 
+rent: 
 ---
 
