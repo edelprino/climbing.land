@@ -2,7 +2,7 @@
 layout: default
 ---
 {% assign gym = page %}
-{% assign form_url = 'https://airtable.com/shrfkSjZ7oK0yS1TV'%}
+{% assign form_url = site.new_gym_form %}
 
 <div class="gym">
   <div class="header">
@@ -97,7 +97,7 @@ layout: default
           <i class="fas fa-user"></i>
         </div>
         <div class="content">
-          <div class="title"><a href="https://airtable.com/shrRfAfsHz2K1VeAB" target="_blank">Sei un istruttore di questa palestra?</a></div>
+          <div class="title"><a href="{{site.new_user_form}}" target="_blank">Sei un istruttore di questa palestra?</a></div>
           Compila il modulo per essere aggiunto alla lista degli istruttori
         </div>
       </div>

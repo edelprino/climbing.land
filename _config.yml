@@ -27,3 +27,6 @@ collections:
     output: true
   users:
     output: true
+
+new_user_form: https://airtable.com/shrRfAfsHz2K1VeAB
+new_gym_form: https://airtable.com/shrfkSjZ7oK0yS1TV
