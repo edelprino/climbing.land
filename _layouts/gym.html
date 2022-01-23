@@ -2,11 +2,13 @@
 layout: default
 ---
 {% assign gym = page %}
+{% assign form_url = 'https://airtable.com/shrfkSjZ7oK0yS1TV'%}
 
 <div class="gym">
-
   <div class="header">
-    <div class="text"><h1>{{ gym.title }}</h1></div>
+    <div class="text">
+      <h1>{{ gym.title }}</h1>
+    </div>
   </div>
 
   <div class="contacts">
@@ -21,6 +23,7 @@ layout: default
       {% endif %}
   </div>
 
+  {% if gym.structures %}
   <h2>Cosa troverai</h2>
   <div class="structures">
     {% assign structure_ids = gym.structures | split: "," %}
@@ -37,7 +40,11 @@ layout: default
       </div>
     {% endfor %}
   </div>
+  {% else %}
+    <h2><a href="{{form_url}}">Conosci che strutture ha questa palestra?</a></h2>
+  {% endif %}
 
+  {% if gym.rent %}
   <h2>Cosa puoi noleggiare</h2>
   <div class="rents">
     {% assign rent_ids = gym.rent | split: "," %}
@@ -54,24 +61,33 @@ layout: default
       </div>
     {% endfor %}
   </div>
+  {% else %}
+    <h2><a href="{{form_url}}">Conosci cosa puoi noleggiare?</a></h2>
+  {% endif %}
 
   <h2>Quanto pagherai</h2>
   <div class="prices">
+    <div class="price">
     {% if gym.annual_fee %}
-    <div class="price">
       Quota iscrizione annuale: {{gym.annual_fee}}
-    </div>
+    {% else %}
+      <a href="{{form_url}}">Conosci quanto costa la quota annuale?</a>
     {% endif %}
+    </div>
+    <div class="price">
     {% if gym.ingress_price %}
-    <div class="price">
       Ingresso singolo: {{gym.ingress_price}}
-    </div>
+    {% else %}
+      <a href="{{form_url}}">Conosci quanto costa il singolo ingresso?</a>
     {% endif %}
-    {% if gym.monthly_subscription_price %}
+    </div>
     <div class="price">
+    {% if gym.monthly_subscription_price %}
       Abbonmanento mensile: {{gym.monthly_subscription_price}}
-    </div>
+    {% else %}
+      <a href="{{form_url}}">Conosci quanto costa l'abbonamento?</a>
     {% endif %}
+    </div>
   </div>
 
   <h2>Staff</h2>
@@ -110,6 +126,11 @@ layout: default
         .addTo(map);
   </script>
   {% endif %}
+
+
+
+  <h2><a href=""></a></h2>
+
 
   <h2>Commenti e recensioni</h2>
 
