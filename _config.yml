@@ -31,6 +31,4 @@ collections:
 new_user_form: https://airtable.com/shrRfAfsHz2K1VeAB
 new_gym_form: https://airtable.com/shrfkSjZ7oK0yS1TV
 
-minima:
-  social_links:
-    instagram: climbing.land
+instagram_username: climbing.land
