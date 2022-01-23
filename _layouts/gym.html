@@ -110,20 +110,14 @@ layout: default
 
   {% if gym.latitude and gym.longitude %}
   <div id='map' style='width: 100%; height: 250px;'></div>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
-  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
   <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiZWRlbHByaW5vIiwiYSI6ImNreW4yZTRoYjA3amcydnMxZHZ1aWNmNm4ifQ.lExg7LU0ykOG3r5S9eIkjQ';
     const map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11', // style URL
       center: [{{gym.longitude}},  {{gym.latitude}}],
       zoom: 12
     });
-
-      new mapboxgl.Marker()
-        .setLngLat([{{gym.longitude}},  {{gym.latitude}}])
-        .addTo(map);
+    new mapboxgl.Marker().setLngLat([{{gym.longitude}},  {{gym.latitude}}]).addTo(map);
   </script>
   {% endif %}
 
