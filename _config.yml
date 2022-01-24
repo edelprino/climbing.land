@@ -4,6 +4,7 @@ email: info@climbing.land
 description: "Tutte le migliori informazioni per scalare"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://climbing.land" # the base hostname & protocol for your site, e.g. http://example.com
+lang: it
 
 header_pages:
   - guides.md

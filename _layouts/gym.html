@@ -103,11 +103,8 @@ layout: default
       </div>
   </div>
 
-
-
   <h2>Dove si trova</h2>
   <p>{{gym.address}}, {{gym.city}} - <a target="_blank" href="https://maps.google.com/?ll={{gym.latitude}},{{gym.longitude}}">Ottieni indicazioni <i class="fas fa-car-side"></i></a></p>
-
   {% if gym.latitude and gym.longitude %}
   <div id='map' style='width: 100%; height: 250px;'></div>
   <script>
@@ -122,8 +119,6 @@ layout: default
   {% endif %}
 
   <h2>Commenti e recensioni</h2>
-
-
   <div id="disqus_thread"></div>
   <script>
       var disqus_config = function () {
