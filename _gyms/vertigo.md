@@ -3,16 +3,16 @@ title: Vertigo
 layout: gym
 region: Piemonte
 city: Pollenzo
-email: info@vertigoclimb.com
-website: https://www.vertigoclimb.com/
 address: Strada Crociera Burdina 5/c
-phone: 3337645240
 latitude: 44.6890449
 longitude: 7.8999533
+email: info@vertigoclimb.com
+phone: 3337645240
+website: https://www.vertigoclimb.com/
 annual_fee: 25
 ingress_price: 8
-structures: ['boulder', 'pangullich', 'moonboard', 'travi', 'salapesi']
 monthly_subscription_price: 55
-rent: ['scarpette']
+structures: boulder,pangullich,moonboard,travi,salapesi
+rent: scarpette
 ---
 

@@ -3,16 +3,16 @@ title: Palaguerci
 layout: gym
 region: Piemonte
 city: Valenza (AL)
-email: wasbedeutet@libero.it
-website: 
 address: Giardini Aldo Moro
-phone: +39 339 3422131
 latitude: 40.994621
 longitude: 17.219865
+email: wasbedeutet@libero.it
+phone: +39 339 3422131
+website: 
 annual_fee: 
 ingress_price: 
-structures: 
 monthly_subscription_price: 
+structures: 
 rent: 
 ---
 

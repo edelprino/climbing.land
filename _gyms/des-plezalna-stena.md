@@ -3,16 +3,16 @@ title: DEŠ PLEZALNA STENA
 layout: gym
 region: Friuli-Venezia Giulia
 city: ŠEMPETER PRI GORICI / vicino al confine di GORIZIA 100 metri
-email: desjezakon@gmail.com
-website: 
 address: ulica andreja gabršcka 1
-phone: 
 latitude: 45.9352
 longitude: 13.6193
+email: desjezakon@gmail.com
+phone: 
+website: 
 annual_fee: 
 ingress_price: 
-structures: 
 monthly_subscription_price: 
+structures: 
 rent: 
 ---
 

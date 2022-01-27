@@ -12,16 +12,16 @@ title: $title
 layout: gym
 region: $region
 city: $city
-email: $email
-website: $website
 address: $address
-phone: $phone
 latitude: $latitude
 longitude: $longitude
+email: $email
+phone: $phone
+website: $website
 annual_fee: $annual_fee
 ingress_price: $ingress_price
-structures: $structures
 monthly_subscription_price: $monthly_subscription_price
+structures: $structures
 rent: $rent
 ---
 $content
@@ -46,9 +46,9 @@ for gym in gyms:
         'content': gym.get('content', ''),
         'annual_fee': gym.get('annual_fee', ''),
         'ingress_price': gym.get('ingress_price', ''),
-        'structures': gym.get('structures', ''),
         'monthly_subscription_price': gym.get('monthly_subscription_price', ''),
-        'rent': gym.get('rent', '')
+        'structures': ','.join(gym.get('structures', [])),
+        'rent': ','.join(gym.get('rent', [])),
     })
     f = open(filename, "w")
     f.write(markdown)

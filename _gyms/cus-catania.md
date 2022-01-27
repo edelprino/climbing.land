@@ -1,18 +1,18 @@
 ---
-title: C.u.s. Catania
+title: C.U.S. Catania
 layout: gym
 region: Sicilia
 city: Catania (CT)
-email: claracristaudo@yahoo.it
-website: 
-address: V.le Andrea Doria , 6
-phone: fax 095. 336478
+address: Viale Andrea Doria 6
 latitude: 37.52625
 longitude: 15.07868
+email: claracristaudo@yahoo.it
+phone: 095336327
+website: http://www.cuscatania.it/project/arrampicata/
 annual_fee: 
 ingress_price: 
-structures: 
 monthly_subscription_price: 
+structures: 
 rent: 
 ---
 
