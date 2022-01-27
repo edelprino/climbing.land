@@ -7,8 +7,8 @@ email: wasbedeutet@libero.it
 website: 
 address: Giardini Aldo Moro
 phone: +39 339 3422131
-latitude: 
-longitude: 
+latitude: 40.994621
+longitude: 17.219865
 annual_fee: 
 ingress_price: 
 structures: 

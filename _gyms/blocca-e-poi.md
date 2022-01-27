@@ -7,8 +7,8 @@ email: info@ilpalazzettoepoi.com
 website: 
 address: Via Molino 17
 phone: 0322217038
-latitude: 45.78874969
-longitude: 8.49239063
+latitude: 45.7887496948242
+longitude: 8.4923906326294
 annual_fee: 
 ingress_price: 
 structures: 

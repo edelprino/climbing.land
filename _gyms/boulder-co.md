@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Archimede 27
 phone: +39 039 8963046
-latitude: 45.56774521
-longitude: 9.3372097
+latitude: 45.5677452087402
+longitude: 9.33720970153808
 annual_fee: 
 ingress_price: 
 structures: 

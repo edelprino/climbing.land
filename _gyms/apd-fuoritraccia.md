@@ -7,8 +7,8 @@ email: info@fuoritraccia.org
 website: 
 address: Via Torino 28
 phone: 
-latitude: 43.62194824
-longitude: 11.46974659
+latitude: 43.6219482421875
+longitude: 11.4697465896606
 annual_fee: 
 ingress_price: 
 structures: 

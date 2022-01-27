@@ -7,8 +7,8 @@ email: info@caicolico.it
 website: 
 address: Via Campione, 9
 phone: +39 0341 940516
-latitude: 46.13201141
-longitude: 9.37887096
+latitude: 46.1320114135742
+longitude: 9.37887096405029
 annual_fee: 
 ingress_price: 
 structures: 

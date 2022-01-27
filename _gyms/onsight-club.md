@@ -7,8 +7,8 @@ email: ra@papiri.org
 website: 
 address: Strada del Cervo 1
 phone: 
-latitude: 
-longitude: 
+latitude: 45.583724
+longitude: 8.058031
 annual_fee: 
 ingress_price: 
 structures: 

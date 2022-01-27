@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Umbria (Nell'edificio sportivo della scuola elementare)
 phone: 
-latitude: 
-longitude: 
+latitude: 45.510505113537
+longitude: 11.3384604352542
 annual_fee: 
 ingress_price: 
 structures: 

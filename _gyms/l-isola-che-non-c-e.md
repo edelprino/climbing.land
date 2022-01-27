@@ -7,8 +7,8 @@ email: fornaribruno@tin.it
 website: 
 address: Via dell'artigianato 66
 phone: 
-latitude: 
-longitude: 
+latitude: 45.35
+longitude: 10.73333
 annual_fee: 
 ingress_price: 
 structures: 

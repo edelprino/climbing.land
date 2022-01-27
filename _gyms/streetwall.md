@@ -7,8 +7,8 @@ email: info@streetwall.it
 website: 
 address: Via Alfonsine, 34
 phone: 
-latitude: 
-longitude: 
+latitude: 44.150481
+longitude: 12.243045
 annual_fee: 
 ingress_price: 
 structures: 

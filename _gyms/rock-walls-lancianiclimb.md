@@ -7,8 +7,8 @@ email: jollypower@yahoo.it
 website: 
 address: Via di Pietralata 135
 phone: 
-latitude: 41.92640305
-longitude: 12.53507805
+latitude: 41.9264030456543
+longitude: 12.5350780487061
 annual_fee: 
 ingress_price: 
 structures: 

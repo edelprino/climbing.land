@@ -7,8 +7,8 @@ email: info@verticalone.it
 website: 
 address: Via Antonio Bernocchi 69
 phone: 
-latitude: 45.64522934
-longitude: 10.19604969
+latitude: 45.6452293395996
+longitude: 10.1960496902466
 annual_fee: 
 ingress_price: 
 structures: 

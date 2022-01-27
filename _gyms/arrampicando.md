@@ -9,10 +9,10 @@ address: Via Sforzesca 2
 phone: 3382415579
 latitude: 45.4338281
 longitude: 8.6340524
-annual_fee: €10.00
-ingress_price: €5.00
-structures: boulder,pangullich,moonboard,travi,salapesi
-monthly_subscription_price: €40.00
-rent: scarpette
+annual_fee: 10
+ingress_price: 5
+structures: ['boulder', 'pangullich', 'moonboard', 'travi', 'salapesi']
+monthly_subscription_price: 40
+rent: ['scarpette']
 ---
 

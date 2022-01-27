@@ -7,8 +7,8 @@ email: info@matteogambaro.it
 website: 
 address: Via S. Mauro 14/C
 phone: 
-latitude: 
-longitude: 
+latitude: 44.334292
+longitude: 7.568579
 annual_fee: 
 ingress_price: 
 structures: 

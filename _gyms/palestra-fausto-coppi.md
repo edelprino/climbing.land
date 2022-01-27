@@ -7,8 +7,8 @@ email: arrampicareatortona@libero.it
 website: 
 address: Via Trento, 31
 phone: 
-latitude: 
-longitude: 
+latitude: 45.498012
+longitude: 11.65032
 annual_fee: 
 ingress_price: 
 structures: 

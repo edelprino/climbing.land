@@ -7,8 +7,8 @@ email: ecoleverticale@hotmail.com
 website: 
 address: Lungotevere Flaminio, 67
 phone: 
-latitude: 
-longitude: 
+latitude: 41.924979
+longitude: 12.462684
 annual_fee: 
 ingress_price: 
 structures: 

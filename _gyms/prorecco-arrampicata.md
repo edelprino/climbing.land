@@ -7,12 +7,12 @@ email: reccoarrampicata@gmail.com
 website: http://www.proreccoarrampicata.it/
 address: Via Cavour 38
 phone: 3473223246
-latitude: 44.36220169
-longitude: 9.13957787
+latitude: 44.3622016906738
+longitude: 9.13957786560059
 annual_fee: 
 ingress_price: 
-structures: boulder,pangullich,travi
+structures: ['boulder', 'pangullich', 'travi']
 monthly_subscription_price: 
-rent: scarpette
+rent: ['scarpette']
 ---
 

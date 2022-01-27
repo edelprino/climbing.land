@@ -7,8 +7,8 @@ email: info@littlekarma.it
 website: 
 address: Località Coste di Staffolo presso Centro commerciale
 phone: 
-latitude: 43.43855667
-longitude: 13.21292305
+latitude: 43.4385566711426
+longitude: 13.2129230499268
 annual_fee: 
 ingress_price: 
 structures: 

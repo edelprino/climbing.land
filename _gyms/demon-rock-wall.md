@@ -7,8 +7,8 @@ email: info@freeclimbingnapoli.it
 website: 
 address: PALATRINCONE di Monteruscello via Cosimo Luigi Miccoli 6
 phone: 
-latitude: 40.87446213
-longitude: 14.09949493
+latitude: 40.8744621276855
+longitude: 14.099494934082
 annual_fee: 
 ingress_price: 
 structures: 

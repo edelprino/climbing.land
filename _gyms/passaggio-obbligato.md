@@ -7,8 +7,8 @@ email: passaggiobbligato@passaggiobbligato.it
 website: 
 address: Via degli Imbriani 17
 phone: 02 39325079
-latitude: 
-longitude: 
+latitude: 45.497928
+longitude: 9.169915
 annual_fee: 
 ingress_price: 
 structures: 

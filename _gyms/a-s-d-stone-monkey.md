@@ -7,8 +7,8 @@ email: info@stonemonkey.it
 website: 
 address: Via Baldovinetti 1a (Zona Soffiano)
 phone: 
-latitude: 
-longitude: 
+latitude: 43.771132
+longitude: 11.267772
 annual_fee: 
 ingress_price: 
 structures: 

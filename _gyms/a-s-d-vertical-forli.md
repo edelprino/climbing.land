@@ -7,8 +7,8 @@ email: info@verticalclimb.it
 website: 
 address: 
 phone: 
-latitude: 44.21861649
-longitude: 12.05206585
+latitude: 44.2186164855957
+longitude: 12.0520658493042
 annual_fee: 
 ingress_price: 
 structures: 

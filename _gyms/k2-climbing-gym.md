@@ -7,8 +7,8 @@ email: k2climbinggym@gmail.com
 website: 
 address: Via Siria, 87
 phone: 
-latitude: 42.78608322
-longitude: 11.10382938
+latitude: 42.7860832214356
+longitude: 11.1038293838501
 annual_fee: 
 ingress_price: 
 structures: 

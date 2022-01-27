@@ -7,8 +7,8 @@ email: vertclimb11@gmail.com
 website: 
 address: Via Fermi, 32
 phone: 
-latitude: 45.55701828
-longitude: 9.4218502
+latitude: 45.5570182800293
+longitude: 9.42185020446777
 annual_fee: 
 ingress_price: 
 structures: 

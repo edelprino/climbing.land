@@ -7,8 +7,8 @@ email: info@vertigo2000.it
 website: 
 address: Via dell' Acqua Marcia 51
 phone: 
-latitude: 
-longitude: 
+latitude: 41.919541
+longitude: 12.552934
 annual_fee: 
 ingress_price: 
 structures: 

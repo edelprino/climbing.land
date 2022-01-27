@@ -7,8 +7,8 @@ email: lele@docnet.it
 website: 
 address: Palazzetto dello Sport
 phone: 3488145288
-latitude: 
-longitude: 
+latitude: 45.13733
+longitude: 8.45066
 annual_fee: 
 ingress_price: 
 structures: 

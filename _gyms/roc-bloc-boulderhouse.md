@@ -7,8 +7,8 @@ email: info@scuolacaivercelli.it
 website: 
 address: Via Vercelli 15 (casa comunale)
 phone: 
-latitude: 
-longitude: 
+latitude: 45.308957
+longitude: 8.329059
 annual_fee: 
 ingress_price: 
 structures: 

@@ -7,8 +7,8 @@ email: info@progressoverticale.bo.it
 website: 
 address: Via Lirone 46
 phone: 
-latitude: 
-longitude: 
+latitude: 44.574707
+longitude: 11.356686
 annual_fee: 
 ingress_price: 
 structures: 

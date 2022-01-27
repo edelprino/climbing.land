@@ -7,8 +7,8 @@ email: info@lucanianaturaverticale.it
 website: 
 address: Parco di Montereale
 phone: 
-latitude: 
-longitude: 
+latitude: 40.633359
+longitude: 15.799233
 annual_fee: 
 ingress_price: 
 structures: 

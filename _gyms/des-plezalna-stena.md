@@ -7,8 +7,8 @@ email: desjezakon@gmail.com
 website: 
 address: ulica andreja gabršcka 1
 phone: 
-latitude: 
-longitude: 
+latitude: 45.9352
+longitude: 13.6193
 annual_fee: 
 ingress_price: 
 structures: 

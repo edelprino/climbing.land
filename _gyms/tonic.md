@@ -7,8 +7,8 @@ email: toni.nori@tonicnet.it
 website: 
 address: Via Mestre 7 Milano
 phone: 02/26410158
-latitude: 45.49185944
-longitude: 9.24017334
+latitude: 45.4918594360352
+longitude: 9.24017333984375
 annual_fee: 
 ingress_price: 
 structures: 

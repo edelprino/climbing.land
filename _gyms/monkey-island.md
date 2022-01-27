@@ -7,8 +7,8 @@ email: info@monkeyislandclimbing.com
 website: 
 address:  Via G. Galilei, 88 (c/o Centro Fitness Abramo's Gym)
 phone: 
-latitude: 45.71710587
-longitude: 11.32495689
+latitude: 45.7171058654785
+longitude: 11.3249568939209
 annual_fee: 
 ingress_price: 
 structures: 

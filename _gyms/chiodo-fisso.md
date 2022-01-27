@@ -7,8 +7,8 @@ email: associazionechiodofisso@yahoo.it
 website: 
 address: Via Officina Elettrica 7
 phone: 
-latitude: 46.40903473
-longitude: 13.01457787
+latitude: 46.4090347290039
+longitude: 13.0145778656006
 annual_fee: 
 ingress_price: 
 structures: 

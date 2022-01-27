@@ -7,8 +7,8 @@ email: mulargia@gmail.com
 website: 
 address: 
 phone: 
-latitude: 
-longitude: 
+latitude: 40.72667
+longitude: 8.55917
 annual_fee: 
 ingress_price: 
 structures: 

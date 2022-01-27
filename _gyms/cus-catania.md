@@ -7,8 +7,8 @@ email: claracristaudo@yahoo.it
 website: 
 address: V.le Andrea Doria , 6
 phone: fax 095. 336478
-latitude: 
-longitude: 
+latitude: 37.52625
+longitude: 15.07868
 annual_fee: 
 ingress_price: 
 structures: 

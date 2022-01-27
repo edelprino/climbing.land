@@ -7,8 +7,8 @@ email: madclimbersbs@gmail.com
 website: 
 address: Via Triumplina 251
 phone: 
-latitude: 45.57922363
-longitude: 10.22863865
+latitude: 45.5792236328125
+longitude: 10.2286386489868
 annual_fee: 
 ingress_price: 
 structures: 

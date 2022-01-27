@@ -7,8 +7,8 @@ email: covoboulderroom@gmail.com
 website: 
 address: Martiri di Belfiore, 23
 phone: 
-latitude: 45.59586334
-longitude: 9.07845688
+latitude: 45.5958633422851
+longitude: 9.07845687866211
 annual_fee: 
 ingress_price: 
 structures: 

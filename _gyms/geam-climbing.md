@@ -7,8 +7,8 @@ email: info@geamclimbing.it
 website: 
 address: Via IV Novembre c/o scuola elementare
 phone: 
-latitude: 
-longitude: 
+latitude: 45.5024123214297
+longitude: 9.02394060889084
 annual_fee: 
 ingress_price: 
 structures: 

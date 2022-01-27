@@ -7,8 +7,8 @@ email:
 website: 
 address: Via circonvallazione Vigne
 phone: 
-latitude: 44.32700348
-longitude: 7.67313385
+latitude: 44.3270034790039
+longitude: 7.67313385009766
 annual_fee: 
 ingress_price: 
 structures: 

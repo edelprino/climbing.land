@@ -7,8 +7,8 @@ email: marimeri@libero.it
 website: 
 address: Via Aldo Moro 1
 phone: 
-latitude: 
-longitude: 
+latitude: 44.64698
+longitude: 10.78613
 annual_fee: 
 ingress_price: 
 structures: 

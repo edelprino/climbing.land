@@ -7,8 +7,8 @@ email: bardbouldercontest@alice.it
 website: 
 address: Loc. Chopine
 phone: 3398234201
-latitude: 45.67043304
-longitude: 7.68323517
+latitude: 45.6704330444336
+longitude: 7.68323516845703
 annual_fee: 
 ingress_price: 
 structures: 

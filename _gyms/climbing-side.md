@@ -7,8 +7,8 @@ email: ciclope@ciclopeclimb.com
 website: 
 address: Cristoforo Colombo 1800
 phone: 
-latitude: 
-longitude: 
+latitude: 41.79269
+longitude: 12.43067
 annual_fee: 
 ingress_price: 
 structures: 

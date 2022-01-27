@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Reiss Romoli 122/10d (dietro il concessionario Di Viesto)
 phone: 3355451971 
-latitude: 45.11146927
-longitude: 7.68682814
+latitude: 45.1114692687988
+longitude: 7.68682813644409
 annual_fee: 
 ingress_price: 
 structures: 

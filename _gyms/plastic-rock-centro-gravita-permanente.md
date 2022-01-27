@@ -7,8 +7,8 @@ email: info@plasticrock.com
 website: 
 address: Via Fortunato Zeni 8
 phone: 0464 480615
-latitude: 
-longitude: 
+latitude: 45.890855
+longitude: 11.028562
 annual_fee: 
 ingress_price: 
 structures: 

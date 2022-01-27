@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Romolo Gessi 18 (zona Sant'Eufemia)
 phone: 030.2350066
-latitude: 
-longitude: 
+latitude: 45.514445
+longitude: 10.287639
 annual_fee: 
 ingress_price: 
 structures: 

@@ -7,8 +7,8 @@ email: infinityboulder@gmail.com
 website: 
 address: Località Le Basse, 25
 phone: 
-latitude: 45.99859238
-longitude: 11.12484646
+latitude: 45.998592376709
+longitude: 11.1248464584351
 annual_fee: 
 ingress_price: 
 structures: 

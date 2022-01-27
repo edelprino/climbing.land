@@ -7,8 +7,8 @@ email: chalknorrisasd@gmail.com
 website: 
 address: Via Robinie 35
 phone: 3451436205
-latitude: 45.92903137
-longitude: 8.44728947
+latitude: 45.9290313720703
+longitude: 8.44728946685791
 annual_fee: 
 ingress_price: 
 structures: 

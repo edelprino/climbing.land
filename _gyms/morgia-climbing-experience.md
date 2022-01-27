@@ -11,8 +11,8 @@ latitude: 41.5813468
 longitude: 14.5942342
 annual_fee: 
 ingress_price: 
-structures: boulder,pangullich,moonboard
+structures: ['boulder', 'pangullich', 'moonboard']
 monthly_subscription_price: 
-rent: scarpette
+rent: ['scarpette']
 ---
 

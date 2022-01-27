@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Montelungo, 70
 phone: 
-latitude: 43.72481537
-longitude: 10.38433647
+latitude: 43.7248153686523
+longitude: 10.3843364715576
 annual_fee: 
 ingress_price: 
 structures: 

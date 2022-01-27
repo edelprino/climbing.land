@@ -7,8 +7,8 @@ email: info@athenasportingclub.eu
 website: 
 address: Via XXI Aprile ang. via Lecce
 phone: 0999574117
-latitude: 
-longitude: 
+latitude: 40.35201
+longitude: 18.16914
 annual_fee: 
 ingress_price: 
 structures: 

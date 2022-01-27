@@ -7,8 +7,8 @@ email: info@devawall.com
 website: 
 address: Via Ippolito Guidetti, 32
 phone: 
-latitude: 44.8170433
-longitude: 11.59764004
+latitude: 44.8170433044434
+longitude: 11.5976400375366
 annual_fee: 
 ingress_price: 
 structures: 

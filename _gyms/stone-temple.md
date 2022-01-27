@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Sicuri, 17/a
 phone: 
-latitude: 44.7640686
-longitude: 10.32662678
+latitude: 44.7640686035156
+longitude: 10.3266267776489
 annual_fee: 
 ingress_price: 
 structures: 

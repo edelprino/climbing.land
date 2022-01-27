@@ -10,9 +10,9 @@ phone: 0376292369
 latitude: 45.1257619
 longitude: 10.7732729
 annual_fee: 
-ingress_price: €10.00
-structures: boulder,pangullich,travi,lead,speed,moonboard,systemwall,salapesi
-monthly_subscription_price: €69.00
-rent: scarpette,imbrago
+ingress_price: 10
+structures: ['boulder', 'pangullich', 'travi', 'lead', 'speed', 'moonboard', 'systemwall', 'salapesi']
+monthly_subscription_price: 69
+rent: ['scarpette', 'imbrago']
 ---
 

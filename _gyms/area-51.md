@@ -7,8 +7,8 @@ email: etruriaclimbing@gmail.com
 website: 
 address: Via dell'industria, 51
 phone: 
-latitude: 
-longitude: 
+latitude: 43.739869
+longitude: 13.109001
 annual_fee: 
 ingress_price: 
 structures: 

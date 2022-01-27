@@ -7,12 +7,12 @@ email: info@mangaclimbing.it
 website: https://mangaclimbing.it/
 address: Via Livraghi Giovanni, 25
 phone: 0227080665
-latitude: 45.51627731
-longitude: 9.22254562
+latitude: 45.5162773132324
+longitude: 9.2225456237793
 annual_fee: 
-ingress_price: €13.00
-structures: boulder,pangullich,travi,lead,speed,moonboard,systemwall,salapesi
-monthly_subscription_price: €90.00
-rent: scarpette,imbrago
+ingress_price: 13
+structures: ['boulder', 'pangullich', 'travi', 'lead', 'speed', 'moonboard', 'systemwall', 'salapesi']
+monthly_subscription_price: 90
+rent: ['scarpette', 'imbrago']
 ---
 

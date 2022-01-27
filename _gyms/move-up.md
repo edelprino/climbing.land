@@ -7,8 +7,8 @@ email: support@rastaclimb.com
 website: 
 address: Via Fidia 39/a
 phone: 
-latitude: 
-longitude: 
+latitude: 45.193802
+longitude: 7.767933
 annual_fee: 
 ingress_price: 
 structures: 

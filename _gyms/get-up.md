@@ -7,8 +7,8 @@ email: riccardocaprasecca@gmail.com
 website: 
 address: Via Vincenzo Statella 19
 phone: 06 5514714
-latitude: 
-longitude: 
+latitude: 41.853972
+longitude: 12.451197
 annual_fee: 
 ingress_price: 
 structures: 

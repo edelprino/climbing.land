@@ -7,8 +7,8 @@ email: info@3Dclimbing.it
 website: 
 address: Via Monte Grappa 9
 phone: 
-latitude: 45.75019455
-longitude: 8.81297016
+latitude: 45.7501945495606
+longitude: 8.81297016143799
 annual_fee: 
 ingress_price: 
 structures: 

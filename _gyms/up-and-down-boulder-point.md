@@ -7,8 +7,8 @@ email: upanddownboulder@gmail.com
 website: 
 address: frazione Arly 52
 phone: 3401035130 
-latitude: 45.71331406
-longitude: 6.95206022
+latitude: 45.7133140563965
+longitude: 6.95206022262573
 annual_fee: 
 ingress_price: 
 structures: 

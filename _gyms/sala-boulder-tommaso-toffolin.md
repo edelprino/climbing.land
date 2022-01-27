@@ -7,8 +7,8 @@ email: perencin.marco@gmail.com
 website: 
 address: Via Cimitero
 phone: 
-latitude: 45.88036728
-longitude: 12.18503094
+latitude: 45.8803672790527
+longitude: 12.1850309371948
 annual_fee: 
 ingress_price: 
 structures: 

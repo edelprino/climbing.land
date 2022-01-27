@@ -7,8 +7,8 @@ email: info@intellighenziaproject.it
 website: 
 address: Via Bernina 18
 phone: 
-latitude: 45.42230606
-longitude: 11.87095642
+latitude: 45.422306060791
+longitude: 11.8709564208984
 annual_fee: 
 ingress_price: 
 structures: 

@@ -7,8 +7,8 @@ email:
 website: 
 address: via F.M. Preti, 1
 phone: 
-latitude: 45.78448486
-longitude: 12.12528324
+latitude: 45.7844848632812
+longitude: 12.125283241272
 annual_fee: 
 ingress_price: 
 structures: 

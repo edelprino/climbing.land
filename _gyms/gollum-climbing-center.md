@@ -7,8 +7,8 @@ email:
 website: 
 address: Via Mausoninia 60
 phone: 
-latitude: 
-longitude: 
+latitude: 42.711957
+longitude: 12.837986
 annual_fee: 
 ingress_price: 
 structures: 

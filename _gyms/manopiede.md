@@ -7,8 +7,8 @@ email: info.manopiede@yahoo.it
 website: 
 address: Via Giardini 5
 phone: 
-latitude: 
-longitude: 
+latitude: 45.9229668738998
+longitude: 10.2261978964791
 annual_fee: 
 ingress_price: 
 structures: 
