@@ -2,7 +2,7 @@
 title: Blocstation
 layout: gym
 region: Emilia Romagna
-city: Forlì (FC)
+city: Forlì
 email: postmaster@blocstation.it
 website: 
 address: Via Monte Santo 6

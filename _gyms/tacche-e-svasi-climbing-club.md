@@ -7,8 +7,8 @@ email: info@taccheesvasi.it
 website: https://www.taccheesvasi.it/site/
 address: Via Armando Diaz, 11/a
 phone: 3488540163
-latitude: 43.057355
-longitude: 12.575064
+latitude: 43.0988572
+longitude: 12.369889
 annual_fee: 
 ingress_price: 
 structures: ['boulder', 'pangullich', 'travi', 'lead', 'systemwall', 'salapesi']
