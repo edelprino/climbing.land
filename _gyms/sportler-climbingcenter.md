@@ -2,7 +2,7 @@
 title: Sportler Climbingcenter
 layout: gym
 region: Veneto
-city: Silea (TV)
+city: Silea
 address: Via combattenti alleati 1
 latitude: 45.6513442993164
 longitude: 12.3069076538086

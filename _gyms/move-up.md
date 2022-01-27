@@ -2,12 +2,12 @@
 title: Move Up
 layout: gym
 region: Piemonte
-city: Torino (TO)
+city: Torino
 address: Via Fidia 39/a
 latitude: 45.193802
 longitude: 7.767933
 email: support@rastaclimb.com
-phone: 
+phone: 348-0431580
 website: 
 annual_fee: 
 ingress_price: 

@@ -2,7 +2,7 @@
 title: Hard Block Cafe Casale Monferrato
 layout: gym
 region: Piemonte
-city: Casale Monferrato (AL)
+city: Casale Monferrato
 address: Palazzetto dello Sport
 latitude: 45.13733
 longitude: 8.45066

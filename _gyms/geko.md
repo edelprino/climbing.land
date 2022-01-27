@@ -2,12 +2,12 @@
 title: Geko
 layout: gym
 region: Emilia Romagna
-city: Modena (MO)
+city: Modena
 address: Via Monsignore della Valle
 latitude: 44.5590923221751
 longitude: 10.9759346384152
 email: elena.zoboli@libero.it
-phone: 
+phone: 3334208936
 website: 
 annual_fee: 
 ingress_price: 

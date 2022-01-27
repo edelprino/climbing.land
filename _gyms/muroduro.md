@@ -2,7 +2,7 @@
 title: MuroDuro
 layout: gym
 region: Piemonte
-city: Trecate (NO)
+city: Trecate
 address: Via Roma 58/a
 latitude: 45.4336662292481
 longitude: 8.74174976348877

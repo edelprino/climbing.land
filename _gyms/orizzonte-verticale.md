@@ -2,7 +2,7 @@
 title: Orizzonte Verticale
 layout: gym
 region: Lombardia
-city: Ronco Briantino (MB)
+city: Ronco Briantino
 address: Via 4 Novembre, 42
 latitude: 45.6679000854492
 longitude: 9.39889621734619

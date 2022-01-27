@@ -2,7 +2,7 @@
 title: Get Up !
 layout: gym
 region: Lazio
-city: Roma (RM)
+city: Roma
 address: Via Vincenzo Statella 19
 latitude: 41.853972
 longitude: 12.451197

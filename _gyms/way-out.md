@@ -2,7 +2,7 @@
 title: Way Out
 layout: gym
 region: Lombardia
-city: Milano (MI)
+city: Milano
 address: Via Sapri, 64
 latitude: 45.577294
 longitude: 9.121672

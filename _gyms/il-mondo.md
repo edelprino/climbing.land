@@ -2,7 +2,7 @@
 title: Il Mondo
 layout: gym
 region: Piemonte
-city: Torino (TO)
+city: Torino
 address: Via Mario Leoni 14
 latitude: 45.18275
 longitude: 7.71422

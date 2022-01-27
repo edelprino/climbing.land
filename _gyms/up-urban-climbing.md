@@ -2,7 +2,7 @@
 title: UP Urban Climbing
 layout: gym
 region: Emilia Romagna
-city: Bologna (BO)
+city: Bologna
 address: Via del Fonditore 1/5 (zona Roveri)
 latitude: 44.5039978027344
 longitude: 11.4043989181519

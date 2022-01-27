@@ -2,7 +2,7 @@
 title: Boulder&Co
 layout: gym
 region: Lombardia
-city: Agrate Brianza (MB)
+city: Agrate Brianza
 address: Via Archimede 27
 latitude: 45.5677452087402
 longitude: 9.33720970153808

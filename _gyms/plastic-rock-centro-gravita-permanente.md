@@ -2,7 +2,7 @@
 title: Plastic Rock / Centro Gravità Permanente
 layout: gym
 region: Trentino-Alto Adige
-city: Rovereto (TN)
+city: Rovereto
 address: Via Fortunato Zeni 8
 latitude: 45.890855
 longitude: 11.028562

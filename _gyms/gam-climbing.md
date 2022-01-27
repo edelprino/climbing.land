@@ -2,7 +2,7 @@
 title: Gam Climbing
 layout: gym
 region: Veneto
-city: Mirano (VE)
+city: Mirano
 address: Via taglio sinistro 65/i, 30035 
 latitude: 45.4771256707252
 longitude: 12.1193954518834

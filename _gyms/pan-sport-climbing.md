@@ -2,7 +2,7 @@
 title: Pan&Sport Climbing
 layout: gym
 region: Piemonte
-city: Quincinetto (TO)
+city: Quincinetto
 address: Via Val, n.5
 latitude: 45.5607376098633
 longitude: 7.80603122711182

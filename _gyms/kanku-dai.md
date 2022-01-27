@@ -2,7 +2,7 @@
 title: Kanku Dai
 layout: gym
 region: Puglia
-city: Bari (BA)
+city: Bari
 address: Via Napoli 240/e
 latitude: 41.165541
 longitude: 16.732236

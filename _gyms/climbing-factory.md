@@ -2,7 +2,7 @@
 title: Climbing Factory
 layout: gym
 region: Emilia Romagna
-city: Castelmaggiore (BO)
+city: Castelmaggiore
 address: Via Lirone, 46 40033 Castelmaggiore
 latitude: 44.516128
 longitude: 11.268412

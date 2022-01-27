@@ -2,7 +2,7 @@
 title: B-Side
 layout: gym
 region: Piemonte
-city: Torino (TO)
+city: Torino
 address: Via Amedeo Ravina 28
 latitude: 45.0775756835938
 longitude: 7.71360778808594

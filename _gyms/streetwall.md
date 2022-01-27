@@ -2,7 +2,7 @@
 title: StreetWall
 layout: gym
 region: Emilia Romagna
-city: Cesena (FC)
+city: Cesena
 address: Via Alfonsine, 34
 latitude: 44.150481
 longitude: 12.243045

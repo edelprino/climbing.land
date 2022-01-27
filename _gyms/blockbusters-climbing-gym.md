@@ -2,7 +2,7 @@
 title: Blockbusters Climbing Gym
 layout: gym
 region: Piemonte
-city: Mondovì (CN)
+city: Mondovì
 address: Piazza Jemina 47
 latitude: 44.4221687316894
 longitude: 7.85422277450562

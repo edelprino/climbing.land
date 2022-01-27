@@ -2,7 +2,7 @@
 title: BoulderBar
 layout: gym
 region: Piemonte
-city: Torino (TO)
+city: Torino
 address: Via Reiss Romoli 122/10d (dietro il concessionario Di Viesto)
 latitude: 45.1114692687988
 longitude: 7.68682813644409

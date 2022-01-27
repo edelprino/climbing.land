@@ -2,7 +2,7 @@
 title: Rock Time Center
 layout: gym
 region: Toscana
-city: Pistoia (PT)
+city: Pistoia
 address: Via Galilei, 45
 latitude: 43.93333
 longitude: 10.91667

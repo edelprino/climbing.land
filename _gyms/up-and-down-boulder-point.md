@@ -2,7 +2,7 @@
 title: Up and Down Boulder Point
 layout: gym
 region: Valle d'Aosta
-city: La Thuile (AO)
+city: La Thuile
 address: frazione Arly 52
 latitude: 45.7133140563965
 longitude: 6.95206022262573

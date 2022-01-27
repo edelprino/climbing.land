@@ -2,7 +2,7 @@
 title: Boulder City
 layout: gym
 region: Trentino-Alto Adige
-city: Pietramurata (TN)
+city: Pietramurata
 address: Viale Daino, 74/a
 latitude: 46.0283
 longitude: 10.946098

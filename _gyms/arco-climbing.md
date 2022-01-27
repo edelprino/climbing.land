@@ -2,12 +2,12 @@
 title: Arco Climbing
 layout: gym
 region: Trentino-Alto Adige
-city: Arco (TN)
+city: Arco
 address: 
 latitude: 45.9183197021484
 longitude: 10.8784198760986
 email: info@arcoclimbing.it
-phone: 
+phone: +39 338 1767550
 website: 
 annual_fee: 
 ingress_price: 

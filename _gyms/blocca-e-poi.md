@@ -2,7 +2,7 @@
 title: Blocca e poi ...
 layout: gym
 region: Piemonte
-city: Colazza (NO)
+city: Colazza
 address: Via Molino 17
 latitude: 45.7887496948242
 longitude: 8.4923906326294

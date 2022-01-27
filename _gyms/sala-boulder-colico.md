@@ -2,7 +2,7 @@
 title: Sala Boulder Colico
 layout: gym
 region: Lombardia
-city: Colico (LC)
+city: Colico
 address: Via Campione, 9
 latitude: 46.1320114135742
 longitude: 9.37887096405029

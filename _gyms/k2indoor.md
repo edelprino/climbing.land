@@ -2,7 +2,7 @@
 title: K2indoor
 layout: gym
 region: Puglia
-city: Putignano (BA)
+city: Putignano
 address: Via Mummolo Zona Industriale
 latitude: 40.837418
 longitude: 17.109535

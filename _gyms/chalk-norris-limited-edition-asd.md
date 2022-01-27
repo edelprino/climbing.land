@@ -2,7 +2,7 @@
 title: Chalk Norris Limited Edition ASD
 layout: gym
 region: Piemonte
-city: Gravellona Toce (VB)
+city: Gravellona Toce
 address: Via Robinie 35
 latitude: 45.9290313720703
 longitude: 8.44728946685791

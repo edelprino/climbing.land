@@ -2,12 +2,12 @@
 title: Stone Temple
 layout: gym
 region: Emilia Romagna
-city: Parma (PR)
+city: Parma
 address: Via Sicuri, 17/a
 latitude: 44.7640686035156
 longitude: 10.3266267776489
 email: 
-phone: 
+phone: 339 5327843
 website: 
 annual_fee: 
 ingress_price: 

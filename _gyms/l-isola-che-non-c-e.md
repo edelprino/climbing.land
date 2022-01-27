@@ -2,7 +2,7 @@
 title: L'isola che non c'è
 layout: gym
 region: Veneto
-city: Valeggio sul Mincio Verona (VR)
+city: Valeggio sul Mincio Verona
 address: Via dell'artigianato 66
 latitude: 45.35
 longitude: 10.73333

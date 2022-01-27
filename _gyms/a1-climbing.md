@@ -2,7 +2,7 @@
 title: A1 Climbing
 layout: gym
 region: Emilia Romagna
-city: Reggio Emilia (RE)
+city: Reggio Emilia
 address:  Via Candelù 3
 latitude: 44.7097587585449
 longitude: 10.6416912078857

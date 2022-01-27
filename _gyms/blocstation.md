@@ -7,7 +7,7 @@ address: Via Monte Santo 6
 latitude: 44.227133
 longitude: 12.044983
 email: postmaster@blocstation.it
-phone: 
+phone: 320 9434628
 website: 
 annual_fee: 
 ingress_price: 

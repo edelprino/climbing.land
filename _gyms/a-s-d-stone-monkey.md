@@ -2,12 +2,12 @@
 title: A.S.D. Stone Monkey
 layout: gym
 region: Toscana
-city: Firenze (FI)
+city: Firenze
 address: Via Baldovinetti 1a (Zona Soffiano)
 latitude: 43.771132
 longitude: 11.267772
 email: info@stonemonkey.it
-phone: 
+phone: Viviana 328 6973614 - Massimo 328 7367273
 website: 
 annual_fee: 
 ingress_price: 

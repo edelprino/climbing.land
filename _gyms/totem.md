@@ -2,7 +2,7 @@
 title: Totem
 layout: gym
 region: Emilia Romagna
-city: Carpi (MO)
+city: Carpi
 address: Via Cuneo 51
 latitude: 44.767486
 longitude: 10.867558

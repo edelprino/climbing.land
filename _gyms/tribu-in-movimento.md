@@ -2,7 +2,7 @@
 title: Tribù in movimento
 layout: gym
 region: Piemonte
-city: San Chiaffredo di Tarantasca (CN)
+city: San Chiaffredo di Tarantasca
 address: S.S. Laghi di Avigliana,42b/c 12020
 latitude: 44.474529
 longitude: 7.508321

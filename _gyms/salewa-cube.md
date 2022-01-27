@@ -2,7 +2,7 @@
 title: Salewa Cube
 layout: gym
 region: Trentino-Alto Adige
-city: Bolzano (BZ)
+city: Bolzano
 address: Via Waltraud Gebert Deeg
 latitude: 46.4707374572754
 longitude: 11.3153896331787

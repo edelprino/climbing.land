@@ -2,7 +2,7 @@
 title: BigUp
 layout: gym
 region: Piemonte
-city: Madonna dell'Olmo (CN)
+city: Madonna dell'Olmo
 address: Via Ercole Negri di Sanfront 4
 latitude: 44.4257888793945
 longitude: 7.54124021530151

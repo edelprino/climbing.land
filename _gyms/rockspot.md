@@ -2,7 +2,7 @@
 title: Rockspot
 layout: gym
 region: Lombardia
-city: Milano (MI)
+city: Milano
 address: Via Gaudenzio Fantoli, 15/1
 latitude: 45.4529113769531
 longitude: 9.2534294128418

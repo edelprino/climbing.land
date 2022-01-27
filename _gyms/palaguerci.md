@@ -2,7 +2,7 @@
 title: Palaguerci
 layout: gym
 region: Piemonte
-city: Valenza (AL)
+city: Valenza
 address: Giardini Aldo Moro
 latitude: 40.994621
 longitude: 17.219865

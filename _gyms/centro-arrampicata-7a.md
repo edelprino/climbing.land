@@ -2,7 +2,7 @@
 title: Centro arrampicata 7A
 layout: gym
 region: Veneto
-city: Valdagno (VI)
+city: Valdagno
 address: Via Tomba 7a
 latitude: 45.062577
 longitude: 7.683285

@@ -2,12 +2,12 @@
 title: RoccoDomo
 layout: gym
 region: Sardegna
-city: Sassari (SS)
+city: Sassari
 address: 
 latitude: 40.72667
 longitude: 8.55917
 email: mulargia@gmail.com
-phone: 
+phone: 3391963799
 website: 
 annual_fee: 
 ingress_price: 

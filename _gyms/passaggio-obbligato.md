@@ -2,7 +2,7 @@
 title: Passaggio Obbligato
 layout: gym
 region: Lombardia
-city: Milano (MI)
+city: Milano
 address: Via degli Imbriani 17
 latitude: 45.497928
 longitude: 9.169915

@@ -2,7 +2,7 @@
 title: Allenarsi!
 layout: gym
 region: Lombardia
-city: Zogno (BG)
+city: Zogno
 address: Via Antonio Locatelli, 7/b
 latitude: 45.7924270629883
 longitude: 9.65224933624268

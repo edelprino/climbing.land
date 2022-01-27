@@ -2,7 +2,7 @@
 title: Arterisko Climbing Factory
 layout: gym
 region: Marche
-city: Macerata (MC)
+city: Macerata
 address: Contrada Fontezucca 30
 latitude: 43.3062553405762
 longitude: 13.4408388137817

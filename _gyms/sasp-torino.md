@@ -2,7 +2,7 @@
 title: SASP Torino
 layout: gym
 region: Piemonte
-city: Torino (TO)
+city: Torino
 address: C.so tazzoli 78
 latitude: 45.034826
 longitude: 7.626922

@@ -2,7 +2,7 @@
 title: Intellighenzia Project
 layout: gym
 region: Veneto
-city: Padova (PD)
+city: Padova
 address: Via Bernina 18
 latitude: 45.422306060791
 longitude: 11.8709564208984

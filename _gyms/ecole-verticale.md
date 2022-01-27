@@ -2,12 +2,12 @@
 title: école Verticale
 layout: gym
 region: Lazio
-city: Roma (RM)
+city: Roma
 address: Lungotevere Flaminio, 67
 latitude: 41.924979
 longitude: 12.462684
 email: ecoleverticale@hotmail.com
-phone: 
+phone: 338/2979960 oppure 338/6679229
 website: 
 annual_fee: 
 ingress_price: 

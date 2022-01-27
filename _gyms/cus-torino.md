@@ -2,7 +2,7 @@
 title: CUS Torino
 layout: gym
 region: Piemonte
-city: Torino (TO)
+city: Torino
 address: Via Braccini 1
 latitude: 45.0594329833984
 longitude: 7.65584182739258

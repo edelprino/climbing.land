@@ -2,7 +2,7 @@
 title: Progresso verticale
 layout: gym
 region: Emilia Romagna
-city: Castelmaggiore (BO)
+city: Castelmaggiore
 address: Via Lirone 46
 latitude: 44.574707
 longitude: 11.356686

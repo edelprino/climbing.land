@@ -2,7 +2,7 @@
 title: Sala Riccardo Bee
 layout: gym
 region: Veneto
-city: Belluno (BL)
+city: Belluno
 address: Palasport De Mas Via Gabelli 2 (Foro boario)
 latitude: 46.151166
 longitude: 12.128013

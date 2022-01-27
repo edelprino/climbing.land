@@ -2,7 +2,7 @@
 title: Palestra CAI Mandelaforum
 layout: gym
 region: Toscana
-city: Firenze (FI)
+city: Firenze
 address: Viale Malta 6
 latitude: 43.775669
 longitude: 11.282643

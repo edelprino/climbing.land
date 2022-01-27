@@ -2,7 +2,7 @@
 title: C.U.S. Catania
 layout: gym
 region: Sicilia
-city: Catania (CT)
+city: Catania
 address: Viale Andrea Doria 6
 latitude: 37.52625
 longitude: 15.07868

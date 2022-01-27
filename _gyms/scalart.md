@@ -7,7 +7,7 @@ address: Via Sampolo, 8
 latitude: 38.1350440979004
 longitude: 13.3571319580078
 email: scalart.pa@gmail.com
-phone: 
+phone: +39 3281054472
 website: http://www.scalart.it/
 annual_fee: 
 ingress_price: 

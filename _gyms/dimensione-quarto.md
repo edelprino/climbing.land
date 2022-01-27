@@ -2,7 +2,7 @@
 title: Dimensione Quarto
 layout: gym
 region: Emilia Romagna
-city: Bologna (BO)
+city: Bologna
 address: Via b.m. dal Monte 14
 latitude: 44.49389
 longitude: 11.34278
