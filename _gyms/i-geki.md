@@ -2,7 +2,7 @@
 title: I Geki
 layout: gym
 region: Abruzzo
-city: Sulmona (AQ)
+city: Sulmona
 email: info@igeki.com
 website: 
 address: Via M. Torcia 67039

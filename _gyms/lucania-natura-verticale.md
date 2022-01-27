@@ -2,7 +2,7 @@
 title: Lucania Natura Verticale
 layout: gym
 region: Basilicata
-city: Potenza (PZ)
+city: Potenza
 email: info@lucanianaturaverticale.it
 website: 
 address: Parco di Montereale

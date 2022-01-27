@@ -2,7 +2,7 @@
 title: Gollum Climbing Center
 layout: gym
 region: Abruzzo
-city: L' Aquila (AQ)
+city: L' Aquila
 email: 
 website: 
 address: Via Mausoninia 60

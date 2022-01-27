@@ -2,7 +2,7 @@
 title: Climbing Zone
 layout: gym
 region: Umbria
-city: Perugia (PG)
+city: Perugia
 email: info@climbingzone.it
 website: 
 address: Strada delle Fratte 3/m 06132
