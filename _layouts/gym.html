@@ -69,21 +69,21 @@ layout: default
   <div class="prices">
     <div class="price">
     {% if gym.annual_fee %}
-      Quota iscrizione annuale: {{gym.annual_fee}}
+      Quota iscrizione annuale: {{gym.annual_fee}} €
     {% else %}
       <a href="{{form_url}}">Conosci quanto costa la quota annuale?</a>
     {% endif %}
     </div>
     <div class="price">
     {% if gym.ingress_price %}
-      Ingresso singolo: {{gym.ingress_price}}
+      Ingresso singolo: {{gym.ingress_price}} €
     {% else %}
       <a href="{{form_url}}">Conosci quanto costa il singolo ingresso?</a>
     {% endif %}
     </div>
     <div class="price">
     {% if gym.monthly_subscription_price %}
-      Abbonmanento mensile: {{gym.monthly_subscription_price}}
+      Abbonmanento mensile: {{gym.monthly_subscription_price}} €
     {% else %}
       <a href="{{form_url}}">Conosci quanto costa l'abbonamento?</a>
     {% endif %}
