@@ -33,3 +33,7 @@ travi:
   description: Zona dedicata all'allenamento della forza di dita
   icon: fa-hand-rock
 
+speed:
+  title: Muro da speed climbing
+  description: Questa palestra dispone di un muro per speed climbing
+  icon: fa-rocket
