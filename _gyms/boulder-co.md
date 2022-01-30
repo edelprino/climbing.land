@@ -13,7 +13,7 @@ annual_fee:
 ingress_price: 
 monthly_subscription_price: 
 structures: 
-staff: recCyUHo8sBSJhaJz
+staff: 
 rent: 
 ---
 
