@@ -13,6 +13,7 @@ annual_fee: 40
 ingress_price: 12
 monthly_subscription_price: 45
 structures: boulder,lead,pangullich,moonboard,travi,salapesi,systemwall
+staff: 
 rent: scarpette,imbrago
 ---
 

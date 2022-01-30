@@ -13,6 +13,7 @@ annual_fee: 15
 ingress_price: 5
 monthly_subscription_price: 
 structures: boulder,pangullich,travi,lead,moonboard
+staff: 
 rent: scarpette
 ---
 

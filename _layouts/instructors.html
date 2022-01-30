@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h1 class="text-center">{{page.title}}</h1>
+{{content}}
+
+<h2>Istruttore Fasi Secondo</h2>
+{% assign instructors = site.users | where_exp:"item", "item.titles contains 'fasi-secondo-livello'"  %}
+<ul>
+{% for instructor in instructors %}
+  <li>{{ instructor.title }}</li>
+{% endfor %}
+</ul>
+
+<h2>Istruttore Fasi Primo</h2>
+{% assign instructors = site.users | where_exp:"item", "item.titles contains 'fasi-primo-livello'"  %}
+<ul>
+{% for instructor in instructors %}
+<li><a href="{{ instructor.url }}">{{ instructor.title }}</a></li>
+{% endfor %}
+</ul>

@@ -13,6 +13,7 @@ annual_fee: 20
 ingress_price: 12
 monthly_subscription_price: 75
 structures: boulder,pangullich,travi,systemwall,salapesi
+staff: 
 rent: 
 ---
 

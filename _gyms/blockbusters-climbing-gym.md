@@ -6,13 +6,14 @@ city: Mondovì
 address: Piazza Jemina 47
 latitude: 44.4221687316894
 longitude: 7.85422277450562
-email: 
+email: blockbustersmondovi@gmail.com
 phone: 3298898754
-website: 
+website: https://www.blockbustersclimb.com/
 annual_fee: 
-ingress_price: 
-monthly_subscription_price: 
-structures: 
-rent: 
+ingress_price: 9
+monthly_subscription_price: 65
+structures: boulder,pangullich,moonboard,travi
+staff: 
+rent: scarpette
 ---
 

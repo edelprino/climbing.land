@@ -22,6 +22,7 @@ annual_fee: $annual_fee
 ingress_price: $ingress_price
 monthly_subscription_price: $monthly_subscription_price
 structures: $structures
+staff: $staff
 rent: $rent
 ---
 $content
@@ -49,6 +50,7 @@ for gym in gyms:
         'monthly_subscription_price': gym.get('monthly_subscription_price', ''),
         'structures': ','.join(gym.get('structures', [])),
         'rent': ','.join(gym.get('rent', [])),
+        'staff': ','.join(gym.get('staff', [])),
     })
     f = open(filename, "w")
     f.write(markdown)

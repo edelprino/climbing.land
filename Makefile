@@ -1,5 +1,5 @@
 start:
-	docker-compose up -d 
+	docker-compose up -d
 	make logs
 
 stop:
@@ -14,3 +14,7 @@ shell:
 
 logs:
 	docker-compose logs -f
+
+import:
+	cd .github && python3 import.py
+	cd .github && python3 import_users.py

@@ -13,6 +13,7 @@ annual_fee: 50
 ingress_price: 10
 monthly_subscription_price: 50
 structures: boulder,travi,pangullich
+staff: 
 rent: 
 ---
 

@@ -13,6 +13,7 @@ annual_fee: 0
 ingress_price: 8
 monthly_subscription_price: 50
 structures: boulder,pangullich,salapesi
+staff: 
 rent: scarpette
 ---
 

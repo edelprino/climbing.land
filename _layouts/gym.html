@@ -91,6 +91,23 @@ layout: default
   </div>
 
   <h2>Staff</h2>
+  {% if gym.staff %}
+  <div class="rents">
+    {% assign user_ids = gym.staff | split: "," %}
+    {% for user_id in user_ids %}
+      {% assign user = site.users | find: "_id", user_id %}
+        <div class="rent">
+          <div class="image">
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="content">
+            <div class="title"><a href={{user.url}}>{{user.title}}</a></div>
+            {{ user.titles }}
+          </div>
+        </div>
+    {% endfor %}
+  </div>
+  {% else %}
   <div class="trainers">
       <div class="trainer">
         <div class="image">
@@ -102,6 +119,7 @@ layout: default
         </div>
       </div>
   </div>
+  {% endif %}
 
   <h2>Dove si trova</h2>
   <p>{{gym.address}}, {{gym.city}} - <a target="_blank" href="https://maps.google.com/?ll={{gym.latitude}},{{gym.longitude}}">Ottieni indicazioni <i class="fas fa-car-side"></i></a></p>
