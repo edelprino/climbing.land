@@ -12,7 +12,7 @@ website: https://www.testedipietra.it/
 annual_fee: 15
 ingress_price: 5
 monthly_subscription_price: 
-structures: boulder,pangullich,travi,moonboard
+structures: boulder,pangullich,travi,lead
 staff: 
 rent: scarpette
 ---
