@@ -4,8 +4,8 @@ layout: gym
 region: Toscana
 city: Livorno
 address: Via Veterani dello Sport 8
-latitude: 
-longitude: 
+latitude: 43.55494
+longitude: 10.343233
 email: ramblavertical.livorno@gmail.com
 phone: 328 4093174
 website: 
