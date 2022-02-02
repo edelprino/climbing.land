@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<h1 class="text-center">{{page.title}}</h1>
+{{content}}
+
+<h2>Guida Alpina</h2>
+{% assign instructors = site.users | where_exp:"item", "item.titles contains 'guida-alpina'"  %}
+<ul>
+{% for instructor in instructors %}
+  <li><a href="{{ instructor.url }}">{{ instructor.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h2>Aspirante Guida Alpina</h2>
+{% assign instructors = site.users | where_exp:"item", "item.titles contains 'aspirante-guida-alpina'"  %}
+<ul>
+{% for instructor in instructors %}
+<li><a href="{{ instructor.url }}">{{ instructor.title }}</a></li>
+{% endfor %}
+</ul>

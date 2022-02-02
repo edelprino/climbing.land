@@ -7,10 +7,30 @@ layout: default
 {% assign gyms_by_regions = site.gyms | group_by: 'region' | sort: 'name' %}
 
 {% for gyms_by_region in gyms_by_regions %}
+  {% if gyms_by_region.name != "" %}
   <h2>{{ gyms_by_region.name }}</h2>
   <ul>
   {% for gym in gyms_by_region.items %}
     <li><a href="{{gym.url}}">{{ gym.title }}</a></li>
   {% endfor %}
+  {% endif %}
   </ul>
 {% endfor %}
+
+<div id="wrapper"></div>
+
+
+<script src="https://unpkg.com/gridjs@5.0.2/dist/gridjs.production.min.js"></script>
+<script>
+  new gridjs.Grid({
+    columns: ["Name", "Email", "Phone Number"],
+    data: [
+      ["John", "john@example.com", "(353) 01 222 3333"],
+      ["Mark", "mark@gmail.com", "(01) 22 888 4444"],
+      ["Eoin", "eoin@gmail.com", "0097 22 654 00033"],
+      ["Sarah", "sarahcdd@gmail.com", "+322 876 1233"],
+      ["Afshin", "afshin@mail.com", "(353) 22 87 8356"]
+    ],
+    search: true
+  }).render(document.getElementById("wrapper"));
+</script>

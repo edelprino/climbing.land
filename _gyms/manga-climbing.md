@@ -9,11 +9,11 @@ longitude: 9.2225456237793
 email: info@mangaclimbing.it
 phone: 0227080665
 website: https://mangaclimbing.it/
-annual_fee: 
+annual_fee: 10
 ingress_price: 13
 monthly_subscription_price: 90
-structures: boulder,pangullich,travi,lead,speed,moonboard,systemwall,salapesi
+structures: boulder,pangullich,travi,lead,moonboard,salapesi
 staff: 
 rent: scarpette,imbrago
 ---
-
+Primo ingresso 18€, 10€ di iscrizione annuale e 8€ di ingresso.
