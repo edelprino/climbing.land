@@ -2,20 +2,23 @@
 layout: default
 ---
 <h1 class="text-center">{{page.title}}</h1>
-{{content}}
-
-<h2>Istruttore Fasi Secondo</h2>
+<div class="text-center">{{content}}</div>
 {% assign instructors = site.users | where_exp:"item", "item.titles contains 'fasi-secondo-livello'"  %}
+{% if instructors != empty %}
+<h2>{{site.data.titles['fasi-secondo-livello'].title}}</h2>
 <ul>
 {% for instructor in instructors %}
   <li>{{ instructor.title }}</li>
 {% endfor %}
 </ul>
+{% endif %}
 
-<h2>Istruttore Fasi Primo</h2>
 {% assign instructors = site.users | where_exp:"item", "item.titles contains 'fasi-primo-livello'"  %}
+{% if instructors != empty %}
+<h2>{{site.data.titles['fasi-primo-livello'].title}}</h2>
 <ul>
 {% for instructor in instructors %}
 <li><a href="{{ instructor.url }}">{{ instructor.title }}</a></li>
 {% endfor %}
 </ul>
+{% endif %}

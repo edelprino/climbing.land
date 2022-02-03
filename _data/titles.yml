@@ -1,0 +1,19 @@
+fasi-primo-livello:
+  title: Istruttore FASI di 1˚ livello
+  description: È il livello di formazione iniziale dei tecnici istruendo alla pratica dell’arrampicata sportiva
+  icon: fa-check
+
+fasi-secondo-livello:
+  title: Allenatore FASI di 2˚ livello
+  description: E’ la prima qualifica tecnica con competenze per operare in autonomia con squadre e atleti impegnati in attività locali, regionali o di specializzazione iniziale.
+  icon: fa-check
+
+fasi-terzo-livello:
+  title: Allenatore FASI di 3˚ livello
+  description: La qualifica caratterizza un allenatore in grado di coordinare altri tecnici e allenare qualsiasi atleta o squadra a livello agonistico nazionale o anche internazionale.
+  icon: fa-bars
+
+fasi-quarto-livello:
+  title: Allenatore FASI di 4˚ livello
+  description: La qualifica individua allenatori capaci di lavorare con compiti di responsabilità di team complessi in contesti nazionali e internazionali di alto livello, competenti a partecipare e a dirigere programmi federali di sviluppo del talento
+  icon: fa-bars

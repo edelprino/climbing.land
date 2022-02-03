@@ -8,6 +8,7 @@ dir_path = "../_gyms"
 table = Table(os.environ['AIRTABLE_API_KEY'], 'appKA1pVlbBOmxG4Z', 'Gyms')
 
 t = Template("""---
+_id: $id
 title: $title
 layout: gym
 region: $region
@@ -31,10 +32,13 @@ $content
 
 os.mkdir(dir_path + "_tmp")
 
+
 gyms = list(map(lambda g: g['fields'], table.all()))
-for gym in gyms:
+for item in table.all():
+    gym  = item['fields']
     filename = dir_path + "_tmp/" + gym.get('id') + ".md"
     markdown = t.substitute({
+        'id' : item['id'],
         'title' : gym.get('name', ''),
         'region': gym.get('region', ''),
         'city': gym.get('city', ''),

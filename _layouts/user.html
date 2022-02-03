@@ -1,4 +1,65 @@
 ---
 layout: default
 ---
-<h1 class="text-center">{{page.title}}</h1>
+{% assign user = page %}
+<div class="user">
+  <div class="header">
+    <div class="avatar">
+      <!-- <img src="https://www.gravatar.com/avatar/{{ user.email | md5 }}?s=300" alt="{{ user.name }}" /> -->
+    </div>
+    <h1>{{ page.title }}</h1>
+  </div>
+
+  <div class="contacts">
+      {% if user.phone %}
+      <!-- <a href="tel:{{user.phone}}"><i class="fas fa-phone"></i> {{user.phone}}</a> -->
+      {% endif %}
+      {% if user.facebook %}
+      <a href="{{user.website}}"><i class="fas fa-globe"></i> {{user.website}}</a>
+      {% endif %}
+      {% if user.email %}
+      <a href="emailto:{{user.email}}"><i class="fas fa-envelope"></i> {{user.email}}</a>
+      {% endif %}
+  </div>
+
+  {% if user.titles %}
+  <h2>Qualifiche</h2>
+  <div class="titles">
+    {% assign titles_ids = user.titles | split: "," %}
+    {% for title_id in titles_ids %}
+    {% assign qualification = site.data.titles[title_id] %}
+      <div class="title">
+        <div class="image">
+          <i class="fas {{qualification.icon}}"></i>
+          <!-- <img src="https://www.federclimb.it/images/logo_fasi.jpg" alt="{{qualification.name}}" /> -->
+        </div>
+        <div class="content">
+          <div class="title">{{qualification.title}}</div>
+          {{qualification.description}}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if user.gyms %}
+  <h2>Palestre in cui lavora</h2>
+
+  <div class="gyms">
+  {% assign gym_ids = user.gyms | split: "," %}
+  {% for gym_id in gym_ids %}
+    {% assign gym = site.gyms | find: "_id", gym_id %}
+      <div class="gym">
+        <div class="image">
+          <!-- <img src="https://www.gravatar.com/avatar/68d81416a15ab0fd47fca6b0bbf4587b?s=50" alt="{{ user.name }}" /> -->
+          <img src="https://images.unsplash.com/photo-1571649123442-dc0e1965e037?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&q=80" alt="{{gym.title}}" />
+        </div>
+        <div class="content">
+          <div class="title"><a href="{{gym.url}}">{{gym.title}}</a></div>
+          {{gym.address}}, {{gym.city}}
+        </div>
+      </div>
+  {% endfor %}
+  {% endif %}
+
+  {{ content }}

@@ -15,6 +15,7 @@ layout: user
 email: $email
 phone: $phone
 titles: $titles
+gyms: $gyms
 ---
 $content
 """)
@@ -32,6 +33,7 @@ for item in table.all():
         'phone': gym.get('phone', ''),
         'content': gym.get('content', ''),
         'titles': ','.join(gym.get('titles', [])),
+        'gyms': ','.join(gym.get('gyms', [])),
         'id': item['id']
     })
     f = open(filename, "w")
