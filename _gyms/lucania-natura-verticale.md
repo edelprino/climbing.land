@@ -1,4 +1,5 @@
 ---
+_id: recc874voMrb9sijy
 title: Lucania Natura Verticale
 layout: gym
 region: Basilicata

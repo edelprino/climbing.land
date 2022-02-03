@@ -1,4 +1,5 @@
 ---
+_id: recA4xBE27R8NC69J
 title: BoulderBar
 layout: gym
 region: Piemonte

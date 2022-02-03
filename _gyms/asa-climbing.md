@@ -1,4 +1,5 @@
 ---
+_id: recmmyA22ZFMAO5RG
 title: Asa Climbing
 layout: gym
 region: Lombardia

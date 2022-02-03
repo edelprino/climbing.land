@@ -1,4 +1,5 @@
 ---
+_id: recQKO7FToLPzB6bO
 title: MuroDuro
 layout: gym
 region: Piemonte

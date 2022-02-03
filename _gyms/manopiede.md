@@ -1,4 +1,5 @@
 ---
+_id: recgn8cMzckTQHxDi
 title: ManoPiede
 layout: gym
 region: Lombardia

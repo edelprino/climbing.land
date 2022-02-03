@@ -1,4 +1,5 @@
 ---
+_id: recr7YGXyq8K471da
 title: Il Mondo
 layout: gym
 region: Piemonte

@@ -1,4 +1,5 @@
 ---
+_id: rec0dvJY0jVKH7lwV
 title: Morgia - Climbing Experience
 layout: gym
 region: Molise

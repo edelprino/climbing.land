@@ -1,4 +1,5 @@
 ---
+_id: rec06PEBrqQoudm64
 title: ViBlock Climbing Park
 layout: gym
 region: Veneto

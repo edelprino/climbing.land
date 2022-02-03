@@ -1,4 +1,5 @@
 ---
+_id: recqn1rgHWJNiqeZt
 title: Blockbusters Climbing Gym
 layout: gym
 region: Piemonte

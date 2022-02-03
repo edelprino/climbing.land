@@ -1,4 +1,5 @@
 ---
+_id: reccMBPp9csAEuw3u
 title: Palestra dei Ragni
 layout: gym
 region: Lombardia

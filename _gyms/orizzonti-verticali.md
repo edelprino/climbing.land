@@ -1,4 +1,5 @@
 ---
+_id: recBI8aZhHLArGOmL
 title: Orizzonti Verticali
 layout: gym
 region: Molise

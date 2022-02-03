@@ -1,4 +1,5 @@
 ---
+_id: recLM2qPS9YQ2OPly
 title: Posto di Blocco
 layout: gym
 region: Piemonte

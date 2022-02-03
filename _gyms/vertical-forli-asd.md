@@ -1,4 +1,5 @@
 ---
+_id: recdQppG0RVlcZcM3
 title: Vertical Forlì ASD
 layout: gym
 region: Emilia Romagna

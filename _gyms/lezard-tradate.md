@@ -1,4 +1,5 @@
 ---
+_id: rec1qbm2UTePdapVq
 title: A.S.D. Lezard Tradate
 layout: gym
 region: Lombardia

@@ -1,4 +1,5 @@
 ---
+_id: recIUdrhsAIciIr73
 title: King Rock
 layout: gym
 region: Veneto

@@ -1,4 +1,5 @@
 ---
+_id: recU7Nzl0KsOAWgEs
 title: Plastic Rock / Centro Gravità Permanente
 layout: gym
 region: Trentino-Alto Adige

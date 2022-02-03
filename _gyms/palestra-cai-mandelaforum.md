@@ -1,4 +1,5 @@
 ---
+_id: recBn48z5E6K0GGku
 title: Palestra CAI Mandelaforum
 layout: gym
 region: Toscana

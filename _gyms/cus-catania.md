@@ -1,4 +1,5 @@
 ---
+_id: reckPSOQaUNojFljB
 title: C.U.S. Catania
 layout: gym
 region: Sicilia

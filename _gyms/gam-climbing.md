@@ -1,4 +1,5 @@
 ---
+_id: recHR8HWjD3d7MjdZ
 title: Gam Climbing
 layout: gym
 region: Veneto

@@ -1,4 +1,5 @@
 ---
+_id: recA8pEIUnNupVMpB
 title: Rock it Climbing Roma
 layout: gym
 region: Lazio

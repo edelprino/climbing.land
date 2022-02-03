@@ -1,4 +1,5 @@
 ---
+_id: rectRbgPr4T3Wnp1l
 title: StreetWall
 layout: gym
 region: Emilia Romagna

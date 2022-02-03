@@ -1,4 +1,5 @@
 ---
+_id: recKIKwL0KqWdHtn6
 title: Tacche e Svasi Climbing Club
 layout: gym
 region: Umbria

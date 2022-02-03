@@ -1,4 +1,5 @@
 ---
+_id: recmGnlYoJ5ZClJ5E
 title: Vertigo
 layout: gym
 region: Piemonte

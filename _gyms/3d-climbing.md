@@ -1,4 +1,5 @@
 ---
+_id: recqyJ8UsoCkPbIce
 title: 3D Climbing
 layout: gym
 region: Lombardia

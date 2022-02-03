@@ -1,4 +1,5 @@
 ---
+_id: recXG2dObG4su3bAY
 title: Prorecco Arrampicata
 layout: gym
 region: Liguria

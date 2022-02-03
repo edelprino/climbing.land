@@ -1,4 +1,5 @@
 ---
+_id: recKTp3Vif6v4GXWK
 title: APD Fuoritraccia
 layout: gym
 region: Toscana

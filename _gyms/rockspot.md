@@ -1,4 +1,5 @@
 ---
+_id: receJD1GegcOHJebb
 title: Rockspot
 layout: gym
 region: Lombardia

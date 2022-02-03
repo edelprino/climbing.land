@@ -1,4 +1,5 @@
 ---
+_id: rec4dSGeIjLUSluHQ
 title: Allenarsi!
 layout: gym
 region: Lombardia

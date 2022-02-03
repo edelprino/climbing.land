@@ -1,4 +1,5 @@
 ---
+_id: recRhMdxZuxpJIItN
 title: UP Urban Climbing
 layout: gym
 region: Emilia Romagna

@@ -1,4 +1,5 @@
 ---
+_id: rectnpfPd8pZx0z64
 title: Il Fondino 2.0 Climbing Gym
 layout: gym
 region: Toscana

@@ -1,4 +1,5 @@
 ---
+_id: recoJRMdI8nFjWBjm
 title: Gollum Climbing Center
 layout: gym
 region: Abruzzo

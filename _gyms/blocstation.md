@@ -1,4 +1,5 @@
 ---
+_id: recsXaqq0sy2Nskle
 title: Blocstation
 layout: gym
 region: Emilia Romagna

@@ -1,4 +1,5 @@
 ---
+_id: recMed9YHQLuPoH87
 title: Manga Climbing
 layout: gym
 region: Lombardia

@@ -1,4 +1,5 @@
 ---
+_id: recZOWdSgUWFCBo4h
 title: GEAM Climbing
 layout: gym
 region: Lombardia

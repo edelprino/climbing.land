@@ -1,4 +1,5 @@
 ---
+_id: recvwhEUNgttGsnnA
 title: Arrampicando
 layout: gym
 region: Piemonte

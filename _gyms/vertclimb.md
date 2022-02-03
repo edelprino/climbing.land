@@ -1,4 +1,5 @@
 ---
+_id: recmo8Nbjppm0oA9K
 title: VertClimb
 layout: gym
 region: Lombardia

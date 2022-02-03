@@ -1,4 +1,5 @@
 ---
+_id: recIZvI8qDUAz2omV
 title: Climber brodeck
 layout: gym
 region: Lombardia

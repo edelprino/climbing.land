@@ -1,4 +1,5 @@
 ---
+_id: rec6ZaeA5ITVCOC0F
 title: Sala Boulder "Tommaso Toffolin"
 layout: gym
 region: Veneto

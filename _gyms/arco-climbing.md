@@ -1,4 +1,5 @@
 ---
+_id: recg2CwoEDWW4Rova
 title: Arco Climbing
 layout: gym
 region: Trentino-Alto Adige

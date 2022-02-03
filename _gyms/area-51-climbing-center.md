@@ -1,4 +1,5 @@
 ---
+_id: reczAyN9wq0Sxt6JJ
 title: Area51 Climbing Center
 layout: gym
 region: Toscana

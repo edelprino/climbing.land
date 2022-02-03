@@ -1,4 +1,5 @@
 ---
+_id: recbPDQlLKrdf6EDQ
 title: Climbing Zone
 layout: gym
 region: Umbria

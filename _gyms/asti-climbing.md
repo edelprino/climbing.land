@@ -1,4 +1,5 @@
 ---
+_id: rec1ucgjejBuWBwNz
 title: ASD Asti Climbing
 layout: gym
 region: Piemonte

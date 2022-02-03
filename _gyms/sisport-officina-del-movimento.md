@@ -1,4 +1,5 @@
 ---
+_id: recI9iBMDKskCGgmP
 title: Sisport - Officina del movimento
 layout: gym
 region: Liguria

@@ -1,4 +1,5 @@
 ---
+_id: recSI9evlnSejYQgO
 title: SASP Torino
 layout: gym
 region: Piemonte

@@ -1,4 +1,5 @@
 ---
+_id: recNtWIoc4Y0PRbX8
 title: Redrock climbing school ASD
 layout: gym
 region: Sicilia

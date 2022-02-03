@@ -1,4 +1,5 @@
 ---
+_id: reclg7a39JSTo4k8v
 title: SuperGiù Climb
 layout: gym
 region: Liguria

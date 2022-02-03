@@ -1,4 +1,5 @@
 ---
+_id: recyTNNjUlhhRXKux
 title: Canisciolti
 layout: gym
 region: Veneto

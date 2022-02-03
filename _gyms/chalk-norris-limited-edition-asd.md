@@ -1,4 +1,5 @@
 ---
+_id: recuj6P66sby4S6Av
 title: Chalk Norris Limited Edition ASD
 layout: gym
 region: Piemonte

@@ -1,4 +1,5 @@
 ---
+_id: recd5Ji72Q24sEFrl
 title: Geko
 layout: gym
 region: Emilia Romagna

@@ -1,4 +1,5 @@
 ---
+_id: recIaBbpLZWiBwV1w
 title: Modigliani Climbing Center
 layout: gym
 region: Toscana

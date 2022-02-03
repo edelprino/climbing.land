@@ -1,4 +1,5 @@
 ---
+_id: recRvC8nQp25TS3HC
 title: Up and Down Boulder Point
 layout: gym
 region: Valle d'Aosta

@@ -1,4 +1,5 @@
 ---
+_id: reclCMDQnbw9OcGhy
 title: Climbing Factory
 layout: gym
 region: Emilia Romagna

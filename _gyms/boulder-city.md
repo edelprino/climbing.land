@@ -1,4 +1,5 @@
 ---
+_id: recgFMs4C1zglzQ2x
 title: Boulder City
 layout: gym
 region: Trentino-Alto Adige

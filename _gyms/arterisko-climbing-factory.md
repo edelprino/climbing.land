@@ -1,4 +1,5 @@
 ---
+_id: recPzLWIOHwruuxTN
 title: Arterisko Climbing Factory
 layout: gym
 region: Marche

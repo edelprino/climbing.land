@@ -1,4 +1,5 @@
 ---
+_id: recvPyVvxmBrjdx5O
 title: ScalArt s.s.d.r.l.
 layout: gym
 region: Sicilia

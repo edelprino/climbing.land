@@ -1,4 +1,5 @@
 ---
+_id: recwtXj9nkPZY1Gq6
 title: Sportler Climbingcenter
 layout: gym
 region: Veneto

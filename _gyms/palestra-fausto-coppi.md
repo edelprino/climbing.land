@@ -1,4 +1,5 @@
 ---
+_id: recnh1ZAVg8VmcXgG
 title: Palestra Fausto Coppi
 layout: gym
 region: Piemonte

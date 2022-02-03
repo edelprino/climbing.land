@@ -1,4 +1,5 @@
 ---
+_id: rec7ODz9pBzP7E23K
 title: I Geki
 layout: gym
 region: Abruzzo

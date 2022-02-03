@@ -1,4 +1,5 @@
 ---
+_id: recUkHZNJoOjqzchP
 title: VerticalOne
 layout: gym
 region: Lombardia

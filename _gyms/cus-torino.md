@@ -1,4 +1,5 @@
 ---
+_id: recme2vuutTJhaL9j
 title: CUS Torino
 layout: gym
 region: Piemonte

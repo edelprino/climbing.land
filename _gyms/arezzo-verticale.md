@@ -1,4 +1,5 @@
 ---
+_id: recyq31PqbSZxKXsZ
 title: Arezzo Verticale
 layout: gym
 region: Toscana

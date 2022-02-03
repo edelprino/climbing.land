@@ -1,4 +1,5 @@
 ---
+_id: recRVIQ4SC8JcYxPN
 title: Chiodo Fisso
 layout: gym
 region: Friuli-Venezia Giulia

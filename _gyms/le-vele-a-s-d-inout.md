@@ -1,4 +1,5 @@
 ---
+_id: rec3d2ms4V5mCRyE3
 title: Le Vele - A.S.D Inout
 layout: gym
 region: Piemonte

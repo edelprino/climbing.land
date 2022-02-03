@@ -1,4 +1,5 @@
 ---
+_id: recKIzWBPUSZkSGCh
 title: Topo Pazzo Climbing House
 layout: gym
 region: Valle d'Aosta

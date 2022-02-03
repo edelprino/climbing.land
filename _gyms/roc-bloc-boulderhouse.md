@@ -1,4 +1,5 @@
 ---
+_id: recupHUXQGQD021jC
 title: Roc@bloc Boulderhouse
 layout: gym
 region: Piemonte

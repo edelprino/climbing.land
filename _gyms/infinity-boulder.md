@@ -1,4 +1,5 @@
 ---
+_id: rec7TNp28FCkx7cKD
 title: Infinity Boulder
 layout: gym
 region: Trentino-Alto Adige

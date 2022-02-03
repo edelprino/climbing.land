@@ -1,4 +1,5 @@
 ---
+_id: reczZvTwkDxYD4q3s
 title: Hard Block Cafe Casale Monferrato
 layout: gym
 region: Piemonte

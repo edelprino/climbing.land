@@ -1,4 +1,5 @@
 ---
+_id: rec9j66sD0BPyquna
 title: Orizzonte Verticale
 layout: gym
 region: Lombardia

@@ -1,4 +1,5 @@
 ---
+_id: rec3SiQcEgBN4YEJc
 title: La Mole Sports Academy
 layout: gym
 region: Piemonte

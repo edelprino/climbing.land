@@ -1,4 +1,5 @@
 ---
+_id: recXHtyEfIAhGGarE
 title: Vertical Climbing Center
 layout: gym
 region: Sicilia

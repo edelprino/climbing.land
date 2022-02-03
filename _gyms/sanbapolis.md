@@ -1,4 +1,5 @@
 ---
+_id: recqZJ6SdXqqqAHEj
 title: SanbàPolis
 layout: gym
 region: Trentino-Alto Adige

@@ -1,4 +1,5 @@
 ---
+_id: rec9J1eF9DTM6uoIz
 title: Centro arrampicata 7A
 layout: gym
 region: Veneto

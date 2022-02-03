@@ -1,4 +1,5 @@
 ---
+_id: recrGRr60B9V5EQMR
 title: Boulder Factory
 layout: gym
 region: Liguria

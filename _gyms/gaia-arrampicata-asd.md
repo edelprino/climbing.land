@@ -1,4 +1,5 @@
 ---
+_id: recT3y6poxC4nw835
 title: Gaia Arrampicata A.S.D
 layout: gym
 region: Calabria

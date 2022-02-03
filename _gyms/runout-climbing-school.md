@@ -1,4 +1,5 @@
 ---
+_id: recHYa6hoW91SsVhe
 title: Runout Climbing School
 layout: gym
 region: Piemonte

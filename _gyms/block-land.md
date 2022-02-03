@@ -1,4 +1,5 @@
 ---
+_id: recfEEzmvjix7mVyB
 title: BlockLand Climbing Center
 layout: gym
 region: Abruzzo

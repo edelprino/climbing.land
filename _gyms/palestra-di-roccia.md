@@ -1,4 +1,5 @@
 ---
+_id: recOunj96q1KnZzwh
 title: Palestra di roccia
 layout: gym
 region: Veneto

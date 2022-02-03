@@ -1,4 +1,5 @@
 ---
+_id: rec9rIblps3946TPb
 title: BigUp
 layout: gym
 region: Piemonte

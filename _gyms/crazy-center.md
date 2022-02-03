@@ -1,4 +1,5 @@
 ---
+_id: recgdk95rNpAh5Sr5
 title: Crazy Center
 layout: gym
 region: Toscana

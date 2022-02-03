@@ -1,4 +1,5 @@
 ---
+_id: recLGNL3wNOibx5e4
 title: I Rampicanti Climbing Farm
 layout: gym
 region: Basilicata

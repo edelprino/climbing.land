@@ -1,4 +1,5 @@
 ---
+_id: recmZ2f7BmfVBjZYh
 title: Urban Wall
 layout: gym
 region: Lombardia

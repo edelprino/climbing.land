@@ -1,4 +1,5 @@
 ---
+_id: recxzuEx8jvUrQH4K
 title: Rock & Walls - LancianiClimb
 layout: gym
 region: Lazio

@@ -1,4 +1,5 @@
 ---
+_id: recPz0yXgvvO6EXtY
 title: Urban Climb Savona
 layout: gym
 region: Liguria

@@ -1,4 +1,5 @@
 ---
+_id: recHcXHbqlBqwfsZx
 title: Little Karma climbing
 layout: gym
 region: Marche

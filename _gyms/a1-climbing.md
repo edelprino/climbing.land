@@ -1,4 +1,5 @@
 ---
+_id: recIwWA7ck4uj9kPp
 title: A1 Climbing
 layout: gym
 region: Emilia Romagna

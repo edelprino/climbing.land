@@ -1,4 +1,5 @@
 ---
+_id: receg8c8bUJRvAj0Q
 title: Roc Palace
 layout: gym
 region: Lombardia

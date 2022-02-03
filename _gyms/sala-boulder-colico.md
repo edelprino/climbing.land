@@ -1,4 +1,5 @@
 ---
+_id: recnvWjd7W4KnTd43
 title: Sala Boulder Colico
 layout: gym
 region: Lombardia

@@ -1,4 +1,5 @@
 ---
+_id: recdRwkQNthNTMVTg
 title: Mad Climbers
 layout: gym
 region: Lombardia

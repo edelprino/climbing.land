@@ -1,4 +1,5 @@
 ---
+_id: recDxe5aFW8h5VFHo
 title: Teste di Pietra
 layout: gym
 region: Friuli-Venezia Giulia
@@ -13,7 +14,7 @@ annual_fee: 15
 ingress_price: 5
 monthly_subscription_price: 
 structures: boulder,pangullich,travi,lead
-staff: 
+staff: recPHIDUYMiNffPgL
 rent: scarpette
 ---
 

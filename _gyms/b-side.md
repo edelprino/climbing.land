@@ -1,4 +1,5 @@
 ---
+_id: recdjVqna5rM0gxyL
 title: B-Side
 layout: gym
 region: Piemonte

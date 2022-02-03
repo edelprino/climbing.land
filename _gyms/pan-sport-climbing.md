@@ -1,4 +1,5 @@
 ---
+_id: rechPV64gxSK3fzGJ
 title: Pan&Sport Climbing
 layout: gym
 region: Piemonte

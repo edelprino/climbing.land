@@ -1,4 +1,5 @@
 ---
+_id: recyB5i8hQtgD47KJ
 title: Laboratorio Fantasyclimbing
 layout: gym
 region: Lombardia

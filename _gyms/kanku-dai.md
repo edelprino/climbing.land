@@ -1,4 +1,5 @@
 ---
+_id: rec5l3yBoyepyokwf
 title: Kanku Dai
 layout: gym
 region: Puglia

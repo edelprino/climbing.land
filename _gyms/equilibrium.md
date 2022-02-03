@@ -1,4 +1,5 @@
 ---
+_id: recn3BRRVG0CtR5Ts
 title: Equilibrium
 layout: gym
 region: Emilia Romagna

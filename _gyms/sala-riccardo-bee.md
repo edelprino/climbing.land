@@ -1,4 +1,5 @@
 ---
+_id: rec9iXn6KlXBoAlNi
 title: Sala Riccardo Bee
 layout: gym
 region: Veneto

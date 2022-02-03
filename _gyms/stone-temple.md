@@ -1,4 +1,5 @@
 ---
+_id: recZKofjTmKkE9f8s
 title: Stone Temple
 layout: gym
 region: Emilia Romagna

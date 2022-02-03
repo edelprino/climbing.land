@@ -1,4 +1,5 @@
 ---
+_id: receqLjpYvW2DNKRj
 title: Palaroccia Napoli
 layout: gym
 region: Campania

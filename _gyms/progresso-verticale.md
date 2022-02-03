@@ -1,4 +1,5 @@
 ---
+_id: reclSXBk15cikToQy
 title: Progresso verticale
 layout: gym
 region: Emilia Romagna

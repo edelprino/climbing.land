@@ -1,4 +1,5 @@
 ---
+_id: recEIHyQVUAVW4vU5
 title: Il Covo del Fagiano
 layout: gym
 region: Lombardia

@@ -1,4 +1,5 @@
 ---
+_id: rec76NwXgG1XJNRVq
 title: Intellighenzia Project
 layout: gym
 region: Veneto

@@ -1,4 +1,5 @@
 ---
+_id: reczxBzwpHxzZv5KK
 title: La Palestrina
 layout: gym
 region: Emilia Romagna

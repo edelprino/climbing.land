@@ -1,4 +1,5 @@
 ---
+_id: recuAioe96LBc4bd5
 title: Opera Verticale
 layout: gym
 region: Veneto

@@ -1,4 +1,5 @@
 ---
+_id: recnxKQjT1oJK0aKN
 title: Boulder&Co
 layout: gym
 region: Lombardia

@@ -1,4 +1,5 @@
 ---
+_id: recGCVRSGafO57KoQ
 title: Salewa Cube
 layout: gym
 region: Trentino-Alto Adige

@@ -1,4 +1,5 @@
 ---
+_id: recEZgjpnjMRwLQ0D
 title: K2indoor
 layout: gym
 region: Puglia

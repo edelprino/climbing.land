@@ -1,4 +1,5 @@
 ---
+_id: rec4UqXiDBLCQvu0W
 title: Palaguerci
 layout: gym
 region: Piemonte

@@ -1,4 +1,5 @@
 ---
+_id: recuVKYsmz29F9h51
 title: A.S.D. Stone Monkey
 layout: gym
 region: Toscana

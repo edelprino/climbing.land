@@ -1,4 +1,5 @@
 ---
+_id: recpZ7MD0qGkn5KXR
 title: Etna Climbing Ragalna
 layout: gym
 region: Sicilia

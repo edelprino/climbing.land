@@ -1,4 +1,5 @@
 ---
+_id: rec1fJFkKTCZFMWNG
 title: DEŠ PLEZALNA STENA
 layout: gym
 region: Friuli-Venezia Giulia
