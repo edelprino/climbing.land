@@ -23,3 +23,6 @@ jobs:
           python import.py
           python import_users.py
         working-directory: .github
+      - uses:  helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
