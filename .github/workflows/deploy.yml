@@ -17,3 +17,6 @@ jobs:
           cache: 'pip'
       - run: pip install -r requirements.txt
         working-directory: .github
+      - run: |
+          python import.py
+          python import_users.py
