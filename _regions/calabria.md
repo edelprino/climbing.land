@@ -1,0 +1,4 @@
+---
+title: Calabria
+layout: region
+---

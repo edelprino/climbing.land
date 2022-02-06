@@ -6,6 +6,38 @@ $bold-font-weight: 400;
 
 @import "{{ site.theme }}";
 
+.button {
+  background-color: #fff;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #2a7ae2;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover, .button:focus {
+  // background-color: #F082AC;
+  text-decoration: underline;
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-weight: $bold-font-weight;
 }
@@ -73,6 +105,76 @@ iframe.no-border {
 
 .site-nav {
   z-index: 99999;
+}
+
+.home {
+  color: #fff;
+  padding-top: 40px;
+  text-align: center;
+
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ), url("/assets/home-bg.jpg");
+  background-position: top center;
+  opacity: 0.9;
+
+  min-height: 650px;
+
+  h1 {
+    font-size: 3.5em;
+  }
+
+  .regions {
+    display: flex;
+    flex-wrap: wrap;
+    .region {
+      flex: 25%;
+      padding: 10px 0;
+      .button {
+        width: 200px
+      }
+    }
+  }
+
+}
+
+.region {
+  h2 {
+    padding-top: 34px;
+  }
+
+  .header {
+    text-align: center;
+  }
+
+  .gym {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .info {
+      .title {
+          font-weight: $bold-font-weight;
+          font-size: 18px;
+      }
+      padding-top: 20px;
+    }
+    .structures {
+      display: flex;
+      flex-direction: row;
+      .structure {
+        text-align: center;
+        .image {
+          width: 60px;
+        }
+        .title {
+          font-weight: $bold-font-weight;
+          font-size: 10px;
+        }
+      }
+    }
+  }
 }
 
 .user {

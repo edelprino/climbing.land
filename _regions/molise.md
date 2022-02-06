@@ -1,0 +1,4 @@
+---
+title: Molise
+layout: region
+---

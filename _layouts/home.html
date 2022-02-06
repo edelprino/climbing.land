@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    {%- include header.html -%}
+    <main aria-label="Content">
+
+    <div class="home">
+
+      <h1>Vuoi imparare a scalare o migliorare?</h1>
+      <h2>Trova le migliori palestre di arrampicata, istruttori o guide alpine per te</h2>
+      <h2>Seleziona la tua regione:</h2>
+
+      <div class="regions">
+        {% for region in site.regions %}
+          <div class="region">
+            <a class="button" href="{{region.url}}">{{ region.title }}</a>
+          </div>
+        {% endfor %}
+      </div>
+
+    </div>
+    </main>
+    {%- include footer.html -%}
+  </body>
+</html>

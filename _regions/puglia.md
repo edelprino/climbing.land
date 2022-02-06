@@ -1,0 +1,4 @@
+---
+title: Puglia
+layout: region
+---

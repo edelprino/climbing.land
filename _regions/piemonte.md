@@ -1,0 +1,4 @@
+---
+title: Piemonte
+layout: region
+---

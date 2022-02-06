@@ -138,7 +138,8 @@ layout: default
       container: 'map',
       style: 'mapbox://styles/mapbox/streets-v11', // style URL
       center: [{{gym.longitude}},  {{gym.latitude}}],
-      zoom: 12
+      zoom: 12,
+      interactive: false
     });
     new mapboxgl.Marker().setLngLat([{{gym.longitude}},  {{gym.latitude}}]).addTo(map);
   </script>

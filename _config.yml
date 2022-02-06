@@ -10,6 +10,7 @@ header_pages:
   - guides.md
   - instructors.md
   - gyms.md
+  - map.md
   - index.md
 
 permalink: /:categories/:title
@@ -27,6 +28,8 @@ collections:
   gyms:
     output: true
   users:
+    output: true
+  regions:
     output: true
 
 new_user_form: https://airtable.com/shrRfAfsHz2K1VeAB

@@ -1,0 +1,4 @@
+---
+title: Campania
+layout: region
+---
