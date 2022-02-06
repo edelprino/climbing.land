@@ -148,10 +148,13 @@ iframe.no-border {
     text-align: center;
   }
 
-  .gym {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  .region-gym {
+    @media (min-width: 1025px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
 
     .info {
       .title {
@@ -161,12 +164,17 @@ iframe.no-border {
       padding-top: 20px;
     }
     .structures {
-      display: flex;
-      flex-direction: row;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+
       .structure {
         text-align: center;
         .image {
           width: 60px;
+          i {
+            font-size: 24px;
+          }
         }
         .title {
           font-weight: $bold-font-weight;

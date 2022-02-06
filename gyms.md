@@ -1,5 +1,5 @@
 ---
 layout: gyms
-title: Palestre
+title: Palestre di arrampicata
 ---
 
