@@ -259,10 +259,27 @@ iframe.no-border {
     padding-left: 35px;
   }
   .contacts {
+    display: flex;
+    justify-content: center;
+
+
+
     padding-top: 34px;
-    text-align: center;
     a {
+      text-align: center;
       padding: 0 15px;
+      font-size: 18px;
+
+      @media only screen and (max-width: 600px) {
+        font-size: 25px;
+        padding: 0 25px;
+      }
+
+      span {
+        @media only screen and (max-width: 600px) {
+          display: none;
+        }
+      }
     }
   }
   h2 {

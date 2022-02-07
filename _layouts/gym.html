@@ -21,13 +21,29 @@ layout: default
 
   <div class="contacts">
       {% if gym.phone %}
-      <a href="tel:{{gym.phone}}"><i class="fas fa-phone"></i> {{gym.phone}}</a>
+      <span>
+        <a href="tel:{{gym.phone}}" target="_blank"><i class="fas fa-phone"></i> <span>Telefono</span></a>
+      </span>
       {% endif %}
       {% if gym.website %}
-      <a href="{{gym.website}}"><i class="fas fa-globe"></i> {{gym.website}}</a>
+      <span>
+        <a href="{{gym.website}}" target="_blank"><i class="fas fa-globe"></i> <span>Sito</span></a>
+      </span>
       {% endif %}
       {% if gym.email %}
-      <a href="emailto:{{gym.email}}"><i class="fas fa-envelope"></i> {{gym.email}}</a>
+      <span>
+        <a href="emailto:{{gym.email}}" target="_blank"><i class="fas fa-envelope"></i> <span>Email</span></a>
+      </span>
+      {% endif %}
+      {% if gym.facebook %}
+      <span>
+        <a href="{{gym.facebook}}" target="_blank"><i class="fab fa-facebook"></i> <span>Facebook</span></a>
+      </span>
+      {% endif %}
+      {% if gym.instagram %}
+      <span>
+        <a href="{{gym.instagram}}" target="_blank"><i class="fab fa-instagram"></i> <span>Instagram</span></a>
+      </span>
       {% endif %}
   </div>
 

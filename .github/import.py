@@ -15,6 +15,8 @@ region: $region
 city: $city
 address: $address
 latitude: $latitude
+facebook: $facebook
+instagram: $instagram
 longitude: $longitude
 email: $email
 phone: $phone
@@ -48,6 +50,8 @@ for item in table.all():
         'address': gym.get('address', ''),
         'website': gym.get('website', ''),
         'phone': gym.get('phone', ''),
+        'facebook': gym.get('facebook', ''),
+        'instagram': gym.get('instagram', ''),
         'latitude': gym.get('latitude', ''),
         'longitude': gym.get('longitude', ''),
         'content': gym.get('content', ''),
