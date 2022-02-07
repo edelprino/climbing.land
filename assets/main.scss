@@ -288,9 +288,14 @@ iframe.no-border {
     }
   }
 
-  .structures, .trainers, .rents {
-    .structure, .trainer, .rent {
+  .structures, .trainers, .rents, .staff {
+    .structure, .trainer, .rent, .user {
       .image {
+        img {
+          border-radius: 50%;
+          width: 60px;
+          height: 60px;
+        }
         float: left;
         width: 80px;
         font-size: 34px;

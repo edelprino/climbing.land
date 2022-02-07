@@ -92,16 +92,13 @@ layout: default
 
   <h2>Staff</h2>
   {% if gym.staff %}
-  <div class="rents">
+  <div class="staff">
     {% assign user_ids = gym.staff | split: "," %}
     {% for user_id in user_ids %}
       {% assign user = site.users | find: "_id", user_id %}
-
-
-
-        <div class="rent">
+        <div class="user">
           <div class="image">
-            <i class="fas fa-user"></i>
+            <img src="https://www.gravatar.com/avatar/{{ user.email | md5 }}?s=100" alt="{{ user.name }}" />
           </div>
           <div class="content">
             <div class="title"><a href={{user.url}}>{{user.title}}</a></div>
