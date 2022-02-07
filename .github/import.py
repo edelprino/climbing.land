@@ -33,13 +33,13 @@ $content
 """)
 
 
-os.mkdir(dir_path + "_tmp")
+os.mkdir(dir_path)
 
 
 gyms = list(map(lambda g: g['fields'], table.all()))
 for item in table.all():
     gym  = item['fields']
-    filename = dir_path + "_tmp/" + gym.get('id') + ".md"
+    filename = dir_path + "/" + gym.get('id') + ".md"
     image_url = gym['image'][0]['url'] if gym.get('image', False) else ""
     markdown = t.substitute({
         'id' : item['id'],
@@ -67,5 +67,5 @@ for item in table.all():
     f.write(markdown)
     f.close()
 
-shutil.rmtree(dir_path)
-os.rename(dir_path + "_tmp", dir_path)
+# shutil.rmtree(dir_path)
+# os.rename(dir_path + "_tmp", dir_path)
