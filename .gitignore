@@ -4,3 +4,5 @@ _drafts
 .idea
 .sass-cache/
 .jekyll-cache/
+_gyms/
+_users/
