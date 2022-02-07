@@ -25,6 +25,7 @@ monthly_subscription_price: $monthly_subscription_price
 structures: $structures
 staff: $staff
 rent: $rent
+image: $image
 ---
 $content
 """)
@@ -37,6 +38,7 @@ gyms = list(map(lambda g: g['fields'], table.all()))
 for item in table.all():
     gym  = item['fields']
     filename = dir_path + "_tmp/" + gym.get('id') + ".md"
+    image_url = gym['image'][0]['url'] if gym.get('image', False) else ""
     markdown = t.substitute({
         'id' : item['id'],
         'title' : gym.get('name', ''),
@@ -55,6 +57,7 @@ for item in table.all():
         'structures': ','.join(gym.get('structures', [])),
         'rent': ','.join(gym.get('rent', [])),
         'staff': ','.join(gym.get('staff', [])),
+        'image': image_url
     })
     f = open(filename, "w")
     f.write(markdown)

@@ -4,8 +4,16 @@ layout: default
 {% assign gym = page %}
 {% assign form_url = site.new_gym_form %}
 
+{% if gym.image %}
+  {% assign image_url = gym.image %}
+{% else %}
+{% assign image_url = site.default_gym_image %}
+{% endif %}
+
+
+
 <div class="gym">
-  <div class="header">
+  <div class="header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{image_url}}');">
     <div class="text">
       <h1>{{ gym.title }}</h1>
     </div>

@@ -1,7 +1,7 @@
 title: ClimbingLand
 author: ""
 email: info@climbing.land
-description: "Tutte le migliori informazioni per scalare"
+description: "Trova le migliori palestre di arrampicata, Guide Alpine, Allenatori o Istruttori di tutta Italia"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://climbing.land" # the base hostname & protocol for your site, e.g. http://example.com
 lang: it
@@ -34,5 +34,6 @@ collections:
 
 new_user_form: https://airtable.com/shrRfAfsHz2K1VeAB
 new_gym_form: https://airtable.com/shrfkSjZ7oK0yS1TV
+default_gym_image: https://images.unsplash.com/photo-1571649123442-dc0e1965e037?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3570&q=80
 
 instagram_username: climbing.land
