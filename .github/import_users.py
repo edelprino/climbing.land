@@ -21,11 +21,11 @@ $content
 """)
 
 
-os.mkdir(dir_path + "_tmp")
+os.mkdir(dir_path)
 
 for item in table.all():
     gym = item['fields']
-    filename = dir_path + "_tmp/" + gym.get('username') + ".md"
+    filename = dir_path + gym.get('username') + ".md"
     markdown = t.substitute({
         'title' : gym.get('name', ''),
         'username' : gym.get('username', ''),
@@ -40,5 +40,5 @@ for item in table.all():
     f.write(markdown)
     f.close()
 
-shutil.rmtree(dir_path)
-os.rename(dir_path + "_tmp", dir_path)
+# shutil.rmtree(dir_path)
+# os.rename(dir_path + "_tmp", dir_path)
