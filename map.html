@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="it"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://climbing.land/favicon.svg" />
+  <title>
+    
+      Mappa - ClimbingLand
+    
+  </title>
+  <meta name="description" content="Trova le migliori palestre di arrampicata, Guide Alpine, Allenatori o Istruttori di tutta Italia">
+  <meta property="og:title" content="ClimbingLand">
+  <meta property="og:url" content="https://climbing.land" />
+  <meta property="og:description" content="Trova le migliori palestre di arrampicata, Guide Alpine, Allenatori o Istruttori di tutta Italia">
+  <meta property="og:image" content="https://climbing.land/assets/social-preview.jpg" />
+  <meta property="og:site_name" content="ClimbingLand">
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
+  <meta property="og:app_id" content="245077617805918" />
+
+  <link rel="image_src" href="https://climbing.land/assets/social-preview.jpg">
+  <link defer rel="stylesheet" href="/assets/main.css">
+  <link defer rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link defer rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' /><link type="application/atom+xml" rel="alternate" href="https://climbing.land/feed.xml" title="ClimbingLand" /><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-3Z1G7L4WD4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-3Z1G7L4WD4');
+    </script><script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZWRlbHByaW5vIiwiYSI6ImNreW4yZTRoYjA3amcydnMxZHZ1aWNmNm4ifQ.lExg7LU0ykOG3r5S9eIkjQ';
+  </script>
+</head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">ClimbingLand</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/guides">Guide Alpine</a><a class="page-link" href="/instructors">Istruttori</a><a class="page-link" href="/gyms">Palestre di arrampicata</a><a class="page-link" href="/map">Mappa</a><a class="page-link" href="/">Home</a></div>
+      </nav></div>
+</header>
+<main aria-label="Content">
+      <div id='map' style='width: 100%; height: 800px;'></div>
+      <script>
+        const map = new mapboxgl.Map({
+          container: 'map',
+          style: 'mapbox://styles/mapbox/streets-v11', // style URL
+          center: [12.8216482, 41.8725722],
+          zoom: 5.2
+        });
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/3d-climbing\">3D Climbing</a></h1>Via Monte Grappa 9, Castronno</div>"))
+                .setLngLat([8.81297016143799,  45.7501945495606])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/a-s-d-stone-monkey\">A.S.D. Stone Monkey</a></h1>Via Baldovinetti 1a (Zona Soffiano), Firenze</div>"))
+                .setLngLat([11.267772,  43.771132])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/a1-climbing\">A1 Climbing</a></h1>Via Candelù 3, Reggio Emilia</div>"))
+                .setLngLat([10.6416912078857,  44.7097587585449])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/allenarsi\">Allenarsi!</a></h1>Via Antonio Locatelli, 7/b, Zogno</div>"))
+                .setLngLat([9.65224933624268,  45.7924270629883])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/apd-fuoritraccia\">APD Fuoritraccia</a></h1>Via Torino 28, Figline Valdarno</div>"))
+                .setLngLat([11.4697465896606,  43.6219482421875])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/arco-climbing\">Arco Climbing</a></h1>, Arco</div>"))
+                .setLngLat([10.8784198760986,  45.9183197021484])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/area-51-climbing-center\">Area51 Climbing Center</a></h1>Via di Casellina 73/E, Scandicci</div>"))
+                .setLngLat([11.166595,  43.757342])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/area-51\">Area 51</a></h1>Via dell'industria, 51, Follonica</div>"))
+                .setLngLat([13.109001,  43.739869])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/arezzo-verticale\">Arezzo Verticale</a></h1>Via Stoppani 4 (c/o Trekking Point), Arezzo</div>"))
+                .setLngLat([11.857694,  43.472212])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/arrampicando\">Arrampicando</a></h1>Via Sforzesca 2, Novara</div>"))
+                .setLngLat([8.6340524,  45.4338281])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/arterisko-climbing-factory\">Arterisko Climbing Factory</a></h1>Contrada Fontezucca 30, Macerata</div>"))
+                .setLngLat([13.4408388137817,  43.3062553405762])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/asa-climbing\">Asa Climbing</a></h1>Via Enrico da Monza, 6, Monza</div>"))
+                .setLngLat([9.2841225,  45.5848441])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/asd-climb-project-foggia\">ASD Climb Project - Foggia</a></h1>Via Napoli 109, Foggia</div>"))
+                .setLngLat([15.500455,  41.414571])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/asd-up-arrampicata\">UP arrampicata</a></h1>Via dell'Artigianato, 33, Cave</div>"))
+                .setLngLat([12.9481629,  41.8187135])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/asti-climbing\">ASD Asti Climbing</a></h1>C.so Palestro 11, Asti</div>"))
+                .setLngLat([8.2155804,  44.9021496])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/athena-sporting-club\">Athena Sporting Club</a></h1>Via XXI Aprile ang. via Lecce, San Marzano di S.G.</div>"))
+                .setLngLat([18.16914,  40.35201])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/b-side\">B-Side</a></h1>Via Amedeo Ravina 28, Torino</div>"))
+                .setLngLat([7.71360778808594,  45.0775756835938])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/big-wall\">Big Wall</a></h1>Viale Giuseppe Garibaldi, 24, Carmagnola</div>"))
+                .setLngLat([7.721058,  44.848662])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/big-walls-camp-4\">Big Walls - Camp 4</a></h1>Viale Lombardia, 51, Brugherio</div>"))
+                .setLngLat([9.291584,  45.545461])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/bigup\">BigUp</a></h1>Via Ercole Negri di Sanfront 4, Madonna dell'Olmo</div>"))
+                .setLngLat([7.54124021530151,  44.4257888793945])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/blocca-e-poi\">Blocca e poi …</a></h1>Via Molino 17, Colazza</div>"))
+                .setLngLat([8.4923906326294,  45.7887496948242])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/block-land\">BlockLand Climbing Center</a></h1>Via Enrico Berlinguer, snc - Nucleo Industriale di Pile, L'Aquila</div>"))
+                .setLngLat([13.34222,  42.35452])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/blockbusters-climbing-gym\">Blockbusters Climbing Gym</a></h1>Piazza Jemina 47, Mondovì</div>"))
+                .setLngLat([7.85422277450562,  44.4221687316894])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/blocstation\">Blocstation</a></h1>Via Monte Santo 6, Forlì</div>"))
+                .setLngLat([12.044983,  44.227133])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/boulder-city\">Boulder City</a></h1>Viale Daino, 74/a, Pietramurata</div>"))
+                .setLngLat([10.946098,  46.0283])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/boulder-co\">Boulder&amp;Co</a></h1>Via Archimede 27, Agrate Brianza</div>"))
+                .setLngLat([9.33720970153808,  45.5677452087402])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/boulder-factory\">Boulder Factory</a></h1>Via Pastorino 38/26, Genova</div>"))
+                .setLngLat([8.90121078491211,  44.4616432189941])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/boulderbar\">BoulderBar</a></h1>Via Reiss Romoli 122/10d (dietro il concessionario Di Viesto), Torino</div>"))
+                .setLngLat([7.68682813644409,  45.1114692687988])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/canisciolti\">Canisciolti</a></h1>Via Venezia 38, Domegge di Cadore</div>"))
+                .setLngLat([12.414135,  46.4571])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/centro-arrampicata-7a\">Centro arrampicata 7A</a></h1>Via Tomba 7a, Valdagno</div>"))
+                .setLngLat([7.683285,  45.062577])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/chalk-norris-limited-edition-asd\">Chalk Norris Limited Edition ASD</a></h1>Via Robinie 35, Gravellona Toce</div>"))
+                .setLngLat([8.44728946685791,  45.9290313720703])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/chiodo-fisso\">Chiodo Fisso</a></h1>Via Officina Elettrica 7, Tolmezzo</div>"))
+                .setLngLat([13.0145778656006,  46.4090347290039])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/climber-brodeck\">Climber brodeck</a></h1>Via Giuseppe Verdi, 2/a, 23035, Sondalo</div>"))
+                .setLngLat([10.329155921936,  46.3277969360352])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/climbing-factory\">Climbing Factory</a></h1>Via Lirone, 46 40033 Castelmaggiore, Castelmaggiore</div>"))
+                .setLngLat([11.268412,  44.516128])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/climbing-side\">Climbing Side</a></h1>Cristoforo Colombo 1800, Roma</div>"))
+                .setLngLat([12.43067,  41.79269])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/climbing-zone\">Climbing Zone</a></h1>Viale Pietro Conti, Perugia</div>"))
+                .setLngLat([12.32498,  43.071315])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/crazy-center\">Crazy Center</a></h1>Via del Bisenzio a San Martino 14, Prato</div>"))
+                .setLngLat([11.103448,  43.89505])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/cus-catania\">C.U.S. Catania</a></h1>Viale Andrea Doria 6, Catania</div>"))
+                .setLngLat([15.07868,  37.52625])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/cus-torino\">CUS Torino</a></h1>Via Braccini 1, Torino</div>"))
+                .setLngLat([7.65584182739258,  45.0594329833984])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/des-plezalna-stena\">DEŠ PLEZALNA STENA</a></h1>ulica andreja gabršcka 1, ŠEMPETER PRI GORICI / vicino al confine di GORIZIA 100 metri</div>"))
+                .setLngLat([13.6193,  45.9352])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/deva-wall\">Deva Wall</a></h1>Via Ippolito Guidetti, 32, Ferrara</div>"))
+                .setLngLat([11.5976400375366,  44.8170433044434])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/dimensione-quarto\">Dimensione Quarto</a></h1>Via b.m. dal Monte 14, Bologna</div>"))
+                .setLngLat([11.34278,  44.49389])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/ecole-verticale\">école Verticale</a></h1>Lungotevere Flaminio, 67, Roma</div>"))
+                .setLngLat([12.462684,  41.924979])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/equilibri-precari\">Equilibri Precari</a></h1>Via Montelungo, 70, Pisa</div>"))
+                .setLngLat([10.3843364715576,  43.7248153686523])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/equilibrium\">Equilibrium</a></h1>Via Tincani Martelli 140, Portile di Modena</div>"))
+                .setLngLat([10.9339275360107,  44.5830383300781])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/etna-climbing-ragalna\">Etna Climbing Ragalna</a></h1>Via Paternò, Ragalna</div>"))
+                .setLngLat([14.693155,  37.57068])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/gaia-arrampicata-asd\">Gaia Arrampicata A.S.D</a></h1>Piazza 5 Dicembre, Lamezia Terme</div>"))
+                .setLngLat([16.311826,  38.969708])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/gam-climbing\">Gam Climbing</a></h1>Via taglio sinistro 65/i, 30035, Mirano</div>"))
+                .setLngLat([12.1193954518834,  45.4771256707252])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/gaz\">GAZ</a></h1>Via ragazzi del 99 (Rifredi, Firenze) c/o Palestra City Club, Firenze</div>"))
+                .setLngLat([11.2387697453425,  43.802975775187])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/geam-climbing\">GEAM Climbing</a></h1>Via IV Novembre c/o scuola elementare, Cornaredo</div>"))
+                .setLngLat([9.02394060889084,  45.5024123214297])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/geko\">Geko</a></h1>Via Monsignore della Valle, Modena</div>"))
+                .setLngLat([10.9759346384152,  44.5590923221751])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/get-up\">Get Up !</a></h1>Via Vincenzo Statella 19, Roma</div>"))
+                .setLngLat([12.451197,  41.853972])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/gollum-climbing-center\">Gollum Climbing Center</a></h1>Viale della Riviera, 343, Pescara</div>"))
+                .setLngLat([14.190176,  42.487127])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/gravita-zero\">ASD Gravità Zero</a></h1>via Marche 12/C, Taranto</div>"))
+                .setLngLat([17.437875,  40.3889])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/hangar-frascati-climbing\">Hangar Frascati Climbing</a></h1>Via Tuscolana, km 15.700, Roma</div>"))
+                .setLngLat([12.608516,  41.833657])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/hard-block-cafe-casale-monferrato\">Hard Block Cafe Casale Monferrato</a></h1>Palazzetto dello Sport, Casale Monferrato</div>"))
+                .setLngLat([8.45066,  45.13733])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/i-geki\">I Geki</a></h1>Via M. Torcia 67039, Sulmona</div>"))
+                .setLngLat([13.927011,  42.047423])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/i-rampicanti-climbing-farm\">I Rampicanti Climbing Farm</a></h1>C.da Mesolecchie, 24/a, Crispiano</div>"))
+                .setLngLat([17.214695,  40.603199])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/ibloc\">iBloc</a></h1>via F.M. Preti, 1, Volpago del Montello</div>"))
+                .setLngLat([12.125283241272,  45.7844848632812])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/il-covo-del-fagiano\">Il Covo del Fagiano</a></h1>Martiri di Belfiore, 23, Cesate</div>"))
+                .setLngLat([9.07845687866211,  45.5958633422851])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/il-fondino-2-0-climbing-gym\">Il Fondino 2.0 Climbing Gym</a></h1>Via Birmania 42, Grosseto</div>"))
+                .setLngLat([11.1036319732666,  42.7828598022461])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/il-mondo\">Il Mondo</a></h1>Via Mario Leoni 14, Torino</div>"))
+                .setLngLat([7.71422,  45.18275])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/inclinazione-verticale\">Inclinazione Verticale</a></h1>Via f.lli Sebastiani 29, Rieti</div>"))
+                .setLngLat([14.0875901,  37.7404455])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/infinity-boulder\">Infinity Boulder</a></h1>Località Le Basse, 25, Mattarello</div>"))
+                .setLngLat([11.1248464584351,  45.998592376709])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/insane-climbing-team\">Insane Climbing Team</a></h1>Via del Bosco Antico, snc, 00072, Ariccia</div>"))
+                .setLngLat([12.6852514251475,  41.7248963284871])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/intellighenzia-project\">Intellighenzia Project</a></h1>Via Bernina 18, Padova</div>"))
+                .setLngLat([11.8709564208984,  45.422306060791])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/jail-rock\">Jail Rock</a></h1>Via Casavetere, Fiuggi</div>"))
+                .setLngLat([13.2249439577239,  41.8057728275915])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/jungle-rock\">Jungle Rock</a></h1>Via Mario Siciliano 64/66, Latina</div>"))
+                .setLngLat([12.8455057,  41.4884098])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/just-climb\">JustClimb</a></h1>Via Caduti delle Reggiane, 24/A, Reggio Emilia</div>"))
+                .setLngLat([10.669368,  44.702385])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/k2-climbing-gym\">K2 Climbing Gym</a></h1>Via Siria, 87, Grosseto</div>"))
+                .setLngLat([11.1038293838501,  42.7860832214356])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/k2indoor\">K2indoor</a></h1>Via Mummolo Zona Industriale, Putignano</div>"))
+                .setLngLat([17.109535,  40.837418])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/kanku-dai\">Kanku Dai</a></h1>Via Napoli 240/e, Bari</div>"))
+                .setLngLat([16.732236,  41.165541])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/king-rock\">King Rock</a></h1>Via Ca' di Mazzé 21 (loc Palazzina), Verona</div>"))
+                .setLngLat([11.0218887329102,  45.4051246643066])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/l-isola-che-non-c-e\">L’isola che non c’è</a></h1>Via dell'artigianato 66, Valeggio sul Mincio Verona</div>"))
+                .setLngLat([10.73333,  45.35])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/la-mole-sports-academy\">La Mole Sports Academy</a></h1>Via Chivasso 8, 10098, Rivoli</div>"))
+                .setLngLat([7.55945920944214,  45.067756652832])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/la-palestrina\">La Palestrina</a></h1>Via Aldo Moro 1, Rubiera</div>"))
+                .setLngLat([10.78613,  44.64698])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/laboratorio-fantasyclimbing\">Laboratorio Fantasyclimbing</a></h1>Via Luchino del Maino 7, Milano</div>"))
+                .setLngLat([9.150816,  45.459564])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/le-vele-a-s-d-inout\">Le Vele - A.S.D Inout</a></h1>Via circonvallazione Vigne, Chiusa Pesio</div>"))
+                .setLngLat([7.67313385009766,  44.3270034790039])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/lezard-tradate\">A.S.D. Lezard Tradate</a></h1>Piazza Unità d' italia 9, Abbiate Guazzone</div>"))
+                .setLngLat([8.92136764526367,  45.7038803100586])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/little-karma-climbing\">Little Karma climbing</a></h1>Località Coste di Staffolo presso Centro commerciale, Staffolo</div>"))
+                .setLngLat([13.2129230499268,  43.4385566711426])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/lucania-natura-verticale\">Lucania Natura Verticale</a></h1>Parco di Montereale, Potenza</div>"))
+                .setLngLat([15.799233,  40.633359])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/macaco\">Macaco</a></h1>Via Torta, 33, Piacenza</div>"))
+                .setLngLat([9.992111,  45.105118])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/mad-climbers\">Mad Climbers</a></h1>Via Triumplina 251, Brescia</div>"))
+                .setLngLat([10.2286386489868,  45.5792236328125])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/manga-climbing\">Manga Climbing</a></h1>Via Livraghi Giovanni, 25, Milano</div>"))
+                .setLngLat([9.2225456237793,  45.5162773132324])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/manopiede\">ManoPiede</a></h1>Via Giardini 5, Piancogno</div>"))
+                .setLngLat([10.2261978964791,  45.9229668738998])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/metropolitan-boulder\">Metropolitan Boulder</a></h1>Piazza Umbria Jazz 1/E, Perugia</div>"))
+                .setLngLat([12.3610858917236,  43.1091651916504])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/modigliani-climbing-center\">Modigliani Climbing Center</a></h1>Via Veterani dello Sport 8, Livorno</div>"))
+                .setLngLat([10.343233,  43.55494])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/monkey-island\">Monkey Island</a></h1>Via G. Galilei, 88 (c/o Centro Fitness Abramo's Gym), Torrebelvicino</div>"))
+                .setLngLat([11.3249568939209,  45.7171058654785])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/morgia-climbing-experience\">Morgia - Climbing Experience</a></h1>Strada Provinciale 48, Oratino</div>"))
+                .setLngLat([14.5942342,  41.5813468])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/move-up\">Move Up</a></h1>Via Fidia 39/a, Torino</div>"))
+                .setLngLat([7.767933,  45.193802])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/muroduro\">MuroDuro</a></h1>Via Roma 58/a, Trecate</div>"))
+                .setLngLat([8.74174976348877,  45.4336662292481])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/my-wall\">My Wall</a></h1>Via G. Guareschi 24, Levata di Curtatone</div>"))
+                .setLngLat([10.7732729,  45.1257619])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/onsight-club\">OnSight Club</a></h1>Strada del Cervo 1, Biella</div>"))
+                .setLngLat([8.058031,  45.583724])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/opera-verticale\">Opera Verticale</a></h1>Via Enrico Mattei, 31, Scorzè</div>"))
+                .setLngLat([12.1220446971326,  45.5613106464925])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/orizzonte-verticale\">Orizzonte Verticale</a></h1>Via 4 Novembre, 42, Ronco Briantino</div>"))
+                .setLngLat([9.39889621734619,  45.6679000854492])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/orizzonti-verticali\">Orizzonti Verticali</a></h1>Via Tiberio 106, Campobasso</div>"))
+                .setLngLat([14.6558493,  41.565357])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/palaguerci\">Palaguerci</a></h1>Giardini Aldo Moro, Valenza</div>"))
+                .setLngLat([17.219865,  40.994621])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/palaroccia-napoli\">Palaroccia Napoli</a></h1>Via Viticella, 98, Quarto</div>"))
+                .setLngLat([14.125638,  40.870346])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/palestra-cai-mandelaforum\">Palestra CAI Mandelaforum</a></h1>Viale Malta 6, Firenze</div>"))
+                .setLngLat([11.282643,  43.775669])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/palestra-dei-ragni\">Palestra dei Ragni</a></h1>Via Carlo Mauri, Lecco</div>"))
+                .setLngLat([9.39922714233398,  45.8624954223633])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/palestra-di-roccia\">Palestra di roccia</a></h1>Via Umbria (Nell'edificio sportivo della scuola elementare), Arzignano</div>"))
+                .setLngLat([11.3384604352542,  45.510505113537])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/palestra-fausto-coppi\">Palestra Fausto Coppi</a></h1>Via Trento, 31, Tortona</div>"))
+                .setLngLat([11.65032,  45.498012])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/pan-sport-climbing\">Pan&amp;Sport Climbing</a></h1>Via Val, n.5, Quincinetto</div>"))
+                .setLngLat([7.80603122711182,  45.5607376098633])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/passaggio-obbligato\">Passaggio Obbligato</a></h1>Via degli Imbriani 17, Milano</div>"))
+                .setLngLat([9.169915,  45.497928])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/plastic-rock-centro-gravita-permanente\">Plastic Rock / Centro Gravità Permanente</a></h1>Via Fortunato Zeni 8, Rovereto</div>"))
+                .setLngLat([11.028562,  45.890855])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/posto-di-blocco\">Posto di Blocco</a></h1>Via S. Mauro 14/C, Boves</div>"))
+                .setLngLat([7.568579,  44.334292])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/progresso-verticale\">Progresso verticale</a></h1>Via Lirone 46, Castelmaggiore</div>"))
+                .setLngLat([11.356686,  44.574707])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/prorecco-arrampicata\">Prorecco Arrampicata</a></h1>Via Cavour 38, Recco</div>"))
+                .setLngLat([9.13957786560059,  44.3622016906738])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/redrock-climbing-school-asd\">Redrock climbing school ASD</a></h1>Via Forlanini, 36, Ragusa</div>"))
+                .setLngLat([14.60557,  36.952042])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/roc-bloc-boulderhouse\">Roc@bloc Boulderhouse</a></h1>Via Vercelli 15 (casa comunale), Sali Vercellese</div>"))
+                .setLngLat([8.329059,  45.308957])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/roc-palace\">Roc Palace</a></h1>Via Romolo Gessi 18 (zona Sant'Eufemia), Brescia</div>"))
+                .setLngLat([10.287639,  45.514445])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/roccodomo\">RoccoDomo</a></h1>, Sassari</div>"))
+                .setLngLat([8.55917,  40.72667])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/rock-it-climbing-roma\">Rock it Climbing Roma</a></h1>Via Biordo Michelotti 14/17, Roma</div>"))
+                .setLngLat([12.5378461820704,  41.8930754326701])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/rock-time-center\">Rock Time Center</a></h1>Via Galilei, 45, Pistoia</div>"))
+                .setLngLat([10.91667,  43.93333])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/rock-walls-lancianiclimb\">Rock &amp; Walls - LancianiClimb</a></h1>Via di Pietralata 135, Roma</div>"))
+                .setLngLat([12.5350780487061,  41.9264030456543])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/rockmadness\">RockMadness</a></h1>z.i. Predda Niedda strada 6 n13, Sassari</div>"))
+                .setLngLat([8.53193187713623,  40.7404136657715])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/rockspot\">Rockspot</a></h1>Via Gaudenzio Fantoli, 15/1, Milano</div>"))
+                .setLngLat([9.2534294128418,  45.4529113769531])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/runout-climbing-school\">Runout Climbing School</a></h1>Via Burcina, 10, Pollone - Biella</div>"))
+                .setLngLat([8.008711,  45.581227])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sala-boulder-colico\">Sala Boulder Colico</a></h1>Via Campione, 9, Colico</div>"))
+                .setLngLat([9.37887096405029,  46.1320114135742])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sala-boulder-tommaso-toffolin\">Sala Boulder “Tommaso Toffolin”</a></h1>Via Cimitero, Pieve di Soligo</div>"))
+                .setLngLat([12.1850309371948,  45.8803672790527])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sala-riccardo-bee\">Sala Riccardo Bee</a></h1>Palasport De Mas Via Gabelli 2 (Foro boario), Belluno</div>"))
+                .setLngLat([12.128013,  46.151166])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/salewa-cube\">Salewa Cube</a></h1>Via Waltraud Gebert Deeg, Bolzano</div>"))
+                .setLngLat([11.3153896331787,  46.4707374572754])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sanbapolis\">SanbàPolis</a></h1>Via della Malpensada, 88, Trento</div>"))
+                .setLngLat([11.132565,  46.045443])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sasp-torino\">SASP Torino</a></h1>C.so tazzoli 78, Torino</div>"))
+                .setLngLat([7.626922,  45.034826])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/scalart\">ScalArt s.s.d.r.l.</a></h1>Via Sampolo, 8, Palermo</div>"))
+                .setLngLat([13.3571319580078,  38.1350440979004])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sciorba\">Sciorba</a></h1>Via Gelasio Adamoli, 57 c/o Centro Polisportivo Sciorba, Genova</div>"))
+                .setLngLat([8.96696472167969,  44.4438743591309])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sisport-officina-del-movimento\">Sisport - Officina del movimento</a></h1>Vico Chiuso degli Eroi, 2, Genova</div>"))
+                .setLngLat([8.9329148,  44.4053807])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/sportler-climbingcenter\">Sportler Climbingcenter</a></h1>Via combattenti alleati 1, Silea</div>"))
+                .setLngLat([12.3069076538086,  45.6513442993164])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/stone-age-climbing-park\">Stone Age Climbing Park</a></h1>Via Enrico Fermi 130, Uboldo</div>"))
+                .setLngLat([8.99026107788086,  45.6146736145019])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/stone-temple\">Stone Temple</a></h1>Via Sicuri, 17/a, Parma</div>"))
+                .setLngLat([10.3266267776489,  44.7640686035156])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/streetwall\">StreetWall</a></h1>Via Alfonsine, 34, Cesena</div>"))
+                .setLngLat([12.243045,  44.150481])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/supergiu-climb\">SuperGiù Climb</a></h1>Via Condera, 19, Orco Feglino</div>"))
+                .setLngLat([8.35264015197754,  44.2231483459473])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/tacche-e-svasi-climbing-club\">Tacche e Svasi Climbing Club</a></h1>Via Armando Diaz, 11/a, Perugia</div>"))
+                .setLngLat([12.369889,  43.0988572])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/teste-di-pietra\">Teste di Pietra</a></h1>Via Spilimbergo 2, Basaldella</div>"))
+                .setLngLat([12.79081,  46.08655])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/the-cave\">The Cave</a></h1>Viale Piemonte, 14, Fondi</div>"))
+                .setLngLat([13.418675,  41.34169])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/the-wall-boulder-industry\">The Wall - Boulder Industry</a></h1>Via Carlo Vaccari c/o ex Ceramiche Vaccari, Santo Stefano di Magra</div>"))
+                .setLngLat([9.93925094604492,  44.1390228271484])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/tonic\">Tonic</a></h1>Via Mestre 7 Milano, Milano</div>"))
+                .setLngLat([9.24017333984375,  45.4918594360352])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/topo-pazzo-climbing-house\">Topo Pazzo Climbing House</a></h1>Loc. Chopine, Verres</div>"))
+                .setLngLat([7.68323516845703,  45.6704330444336])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/totem\">Totem</a></h1>Via Cuneo 51, Carpi</div>"))
+                .setLngLat([10.867558,  44.767486])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/tribu-in-movimento\">Tribù in movimento</a></h1>S.S. Laghi di Avigliana,42b/c 12020, San Chiaffredo di Tarantasca</div>"))
+                .setLngLat([7.508321,  44.474529])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/tuscia-verticale\">Tuscia Verticale</a></h1>Via dei Sindacati, 16, Viterbo</div>"))
+                .setLngLat([12.089774,  42.446444])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/up-and-down-boulder-point\">Up and Down Boulder Point</a></h1>frazione Arly 52, La Thuile</div>"))
+                .setLngLat([6.95206022262573,  45.7133140563965])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/up-urban-climbing\">UP Urban Climbing</a></h1>Via del Fonditore 1/5 (zona Roveri), Bologna</div>"))
+                .setLngLat([11.4043989181519,  44.5039978027344])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/urban-climb-savona\">Urban Climb Savona</a></h1>Via Mentana 9, Savona</div>"))
+                .setLngLat([8.47909170407194,  44.3133789715396])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/urban-wall\">Urban Wall</a></h1>Via Gramsci, 29, Pero</div>"))
+                .setLngLat([9.09152984619141,  45.5117607116699])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/v10-circolo\">V10 Il circolo</a></h1>Via Antonio Meucci, 14, Selargius</div>"))
+                .setLngLat([9.1770992,  39.2631072])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/vertclimb\">VertClimb</a></h1>Via Fermi, 32, Gessate</div>"))
+                .setLngLat([9.42185020446777,  45.5570182800293])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/vertical-climbing-center\">Vertical Climbing Center</a></h1>Via Padova 22, Siracusa</div>"))
+                .setLngLat([15.223223,  37.1264837])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/vertical-forli-asd\">Vertical Forlì ASD</a></h1>Via Pandolfa, 42, Forlì</div>"))
+                .setLngLat([12.0520658493042,  44.2186164855957])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/verticalone\">VerticalOne</a></h1>Via Antonio Bernocchi 69, Cogozzo</div>"))
+                .setLngLat([10.1960496902466,  45.6452293395996])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/vertiginianzio\">Vertigini</a></h1>Via di Colle Cocchino 6, Anzio</div>"))
+                .setLngLat([12.621226,  41.472348])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/vertigo\">Vertigo</a></h1>Strada Crociera Burdina 5/c, Pollenzo</div>"))
+                .setLngLat([7.8999533,  44.6890449])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/vertigo2000\">Vertigo2000</a></h1>Via dell' Acqua Marcia 51, Roma</div>"))
+                .setLngLat([12.552934,  41.919541])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/viblock-climbing-park\">ViBlock Climbing Park</a></h1>Via Zambon 4, Creazzo</div>"))
+                .setLngLat([11.4503116607666,  45.5219039916992])
+                .addTo(map);
+            
+        
+            
+              new mapboxgl.Marker()
+                  .setPopup(new mapboxgl.Popup().setHTML("<div style=\"text-align:center\"><h1><a href=\"/gyms/way-out\">Way Out</a></h1>Via Sapri, 64, Milano</div>"))
+                .setLngLat([9.121672,  45.577294])
+                .addTo(map);
+            
+        
+      </script>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">ClimbingLand</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name"></li><li><a class="u-email" href="mailto:info@climbing.land">info@climbing.land</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://instagram.com/climbing.land"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#instagram"></use></svg> <span class="username">climbing.land</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Trova le migliori palestre di arrampicata, Guide Alpine, Allenatori o Istruttori di tutta Italia</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+</html>
