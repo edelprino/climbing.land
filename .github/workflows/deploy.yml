@@ -2,8 +2,8 @@ name: Deploy to GitHub pages
 env:
   AIRTABLE_API_KEY: ${{ secrets.AIRTABLE_API_KEY }}
 on:
-  schedule:
-    - cron:  '0 8,16 * * *'
+  # schedule:
+  #   - cron:  '0 8,16 * * *'
   push:
     branches: [ master ]
 jobs:
